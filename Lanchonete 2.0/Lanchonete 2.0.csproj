@@ -101,6 +101,9 @@
     <EmbeddedResource Include="Telas\TelaCadastro.resx">
       <DependentUpon>TelaCadastro.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Telas\TelaCarrinho.resx">
+      <DependentUpon>TelaCarrinho.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Telas\TelaInicio.resx">
       <DependentUpon>TelaInicio.cs</DependentUpon>
     </EmbeddedResource>

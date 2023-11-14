@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Lanchonete_2._0.Classes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -18,5 +19,7 @@ namespace Lanchonete_2._0
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new TelaInicio());
         }
+
+       
     }
 }

@@ -65,7 +65,7 @@
             this.panel1.Controls.Add(this.bt_verpreco_torta);
             this.panel1.Location = new System.Drawing.Point(66, 27);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(669, 597);
+            this.panel1.Size = new System.Drawing.Size(649, 597);
             this.panel1.TabIndex = 9;
             // 
             // panel3
@@ -281,6 +281,7 @@
             this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
             this.Name = "Pag2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Pag2";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

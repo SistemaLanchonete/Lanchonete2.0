@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaCardapio));
-            this.panelChildForm = new Guna.UI2.WinForms.Guna2Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -44,33 +43,22 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.panelChildForm.SuspendLayout();
+            this.panelChildForm = new Guna.UI2.WinForms.Guna2Panel();
             this.panel1.SuspendLayout();
             this.panelSideMenu.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel_sub_menu.SuspendLayout();
+            this.panelChildForm.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // panelChildForm
-            // 
-            this.panelChildForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(21)))), ((int)(((byte)(32)))));
-            this.panelChildForm.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelChildForm.BackgroundImage")));
-            this.panelChildForm.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panelChildForm.Controls.Add(this.panel1);
-            this.panelChildForm.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(21)))), ((int)(((byte)(32)))));
-            this.panelChildForm.Location = new System.Drawing.Point(149, -7);
-            this.panelChildForm.Name = "panelChildForm";
-            this.panelChildForm.Size = new System.Drawing.Size(747, 650);
-            this.panelChildForm.TabIndex = 4;
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(3, 44);
+            this.panel1.Location = new System.Drawing.Point(-10, 44);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(755, 100);
+            this.panel1.Size = new System.Drawing.Size(791, 100);
             this.panel1.TabIndex = 2;
             // 
             // label2
@@ -108,7 +96,7 @@
             this.panelSideMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelSideMenu.Location = new System.Drawing.Point(0, 0);
             this.panelSideMenu.Name = "panelSideMenu";
-            this.panelSideMenu.Size = new System.Drawing.Size(164, 636);
+            this.panelSideMenu.Size = new System.Drawing.Size(188, 636);
             this.panelSideMenu.TabIndex = 3;
             // 
             // guna2Button1
@@ -126,7 +114,7 @@
             this.guna2Button1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button1.Location = new System.Drawing.Point(4, 345);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(139, 33);
+            this.guna2Button1.Size = new System.Drawing.Size(163, 50);
             this.guna2Button1.TabIndex = 5;
             this.guna2Button1.Text = "Carrinho";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
@@ -197,7 +185,7 @@
             this.panel_sub_menu.Controls.Add(this.button2);
             this.panel_sub_menu.Location = new System.Drawing.Point(0, 100);
             this.panel_sub_menu.Name = "panel_sub_menu";
-            this.panel_sub_menu.Size = new System.Drawing.Size(164, 182);
+            this.panel_sub_menu.Size = new System.Drawing.Size(188, 182);
             this.panel_sub_menu.TabIndex = 1;
             // 
             // button5
@@ -264,6 +252,17 @@
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // panelChildForm
+            // 
+            this.panelChildForm.BackColor = System.Drawing.Color.Transparent;
+            this.panelChildForm.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelChildForm.Controls.Add(this.panel1);
+            this.panelChildForm.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(21)))), ((int)(((byte)(32)))));
+            this.panelChildForm.Location = new System.Drawing.Point(173, -7);
+            this.panelChildForm.Name = "panelChildForm";
+            this.panelChildForm.Size = new System.Drawing.Size(970, 650);
+            this.panelChildForm.TabIndex = 4;
+            // 
             // TelaCardapio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -271,26 +270,24 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(896, 636);
-            this.Controls.Add(this.panelChildForm);
             this.Controls.Add(this.panelSideMenu);
+            this.Controls.Add(this.panelChildForm);
             this.DoubleBuffered = true;
             this.Name = "TelaCardapio";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "TelaCardapio";
-            this.panelChildForm.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panelSideMenu.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.panel_sub_menu.ResumeLayout(false);
+            this.panelChildForm.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private Guna.UI2.WinForms.Guna2Panel panelChildForm;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
@@ -305,5 +302,6 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
+        private Guna.UI2.WinForms.Guna2Panel panelChildForm;
     }
 }

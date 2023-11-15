@@ -17,7 +17,7 @@ namespace Lanchonete_2._0.Telas
         {
             public string nome;
             public double preco;
-        }
+        }       
         List<produto> LISTA_PRODUTOS;
         List<produto> LISTA_COMPRAS;
         private double valorTotal;
@@ -47,7 +47,7 @@ namespace Lanchonete_2._0.Telas
             };
             foreach (produto p in LISTA_PRODUTOS)
             {
-                lista_produto.Items.Add(ConstruirLinhaProduto(p)); // Constroi as linhas de produtos
+               lista_produto.Items.Add(ConstruirLinhaProduto(p)); // Constroi as linhas de produtos
             }
             IniciarCompras();
         }
@@ -117,5 +117,6 @@ namespace Lanchonete_2._0.Telas
 
             
         }
-    }
+
+  }
 }

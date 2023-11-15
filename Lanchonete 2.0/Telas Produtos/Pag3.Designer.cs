@@ -65,7 +65,7 @@
             this.panel1.Controls.Add(this.bt_verpreco_coxinha);
             this.panel1.Location = new System.Drawing.Point(65, 28);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(671, 595);
+            this.panel1.Size = new System.Drawing.Size(649, 597);
             this.panel1.TabIndex = 11;
             // 
             // panel3
@@ -281,6 +281,7 @@
             this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
             this.Name = "Pag3";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Pag3";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

@@ -13,7 +13,6 @@ C:\Users\Family Torrente\Music\Sucesso\Lanchonete2.0\Lanchonete 2.0\bin\Debug\La
 C:\Users\Family Torrente\Music\Sucesso\Lanchonete2.0\Lanchonete 2.0\bin\Debug\Guna.UI2.dll
 C:\Users\Family Torrente\Music\Sucesso\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete 2.0.csproj.AssemblyReference.cache
 C:\Users\Family Torrente\Music\Sucesso\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Properties.Resources.resources
-C:\Users\Family Torrente\Music\Sucesso\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Telas.TelaCadastro.resources
 C:\Users\Family Torrente\Music\Sucesso\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Telas.TelaCardapio.resources
 C:\Users\Family Torrente\Music\Sucesso\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Telas.TelaCarrinho.resources
 C:\Users\Family Torrente\Music\Sucesso\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.TelaInicio.resources
@@ -28,3 +27,7 @@ C:\Users\Family Torrente\Music\Sucesso\Lanchonete2.0\Lanchonete 2.0\obj\Debug\La
 C:\Users\Family Torrente\Music\Sucesso\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Pag2.resources
 C:\Users\Family Torrente\Music\Sucesso\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Pag3.resources
 C:\Users\Family Torrente\Music\Sucesso\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Pag1.resources
+C:\Users\Family Torrente\Music\Sucesso\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.TipoPerfil.resources
+C:\Users\Family Torrente\Music\Sucesso\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Tela_Cadastro_funcionario.resources
+C:\Users\Family Torrente\Music\Sucesso\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Telas.TelaCadastro_cliente.resources
+C:\Users\Family Torrente\Music\Sucesso\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.TelaGerenciadorCardapio.resources

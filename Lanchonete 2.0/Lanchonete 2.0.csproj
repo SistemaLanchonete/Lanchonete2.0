@@ -58,6 +58,12 @@
     <Compile Include="Entidades\Funcionario.cs" />
     <Compile Include="Entidades\Pessoa.cs" />
     <Compile Include="Entidades\LembraSenha.cs" />
+    <Compile Include="Telas\TelaGerenciadorCardapio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\TelaGerenciadorCardapio.Designer.cs">
+      <DependentUpon>TelaGerenciadorCardapio.cs</DependentUpon>
+    </Compile>
     <Compile Include="Telas Produtos\Pag4.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,11 +88,11 @@
     <Compile Include="Telas Produtos\Pag1.Designer.cs">
       <DependentUpon>Pag1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Telas\TelaCadastro.cs">
+    <Compile Include="Telas\TelaCadastro_cliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Telas\TelaCadastro.Designer.cs">
-      <DependentUpon>TelaCadastro.cs</DependentUpon>
+    <Compile Include="Telas\TelaCadastro_cliente.Designer.cs">
+      <DependentUpon>TelaCadastro_cliente.cs</DependentUpon>
     </Compile>
     <Compile Include="Telas\TelaCardapio.cs">
       <SubType>Form</SubType>
@@ -120,6 +126,18 @@
     <Compile Include="Telas\TelaPagamento.Designer.cs">
       <DependentUpon>TelaPagamento.cs</DependentUpon>
     </Compile>
+    <Compile Include="Telas\TipoPerfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\TipoPerfil.Designer.cs">
+      <DependentUpon>TipoPerfil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas\Tela_Cadastro_funcionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas\Tela_Cadastro_funcionario.Designer.cs">
+      <DependentUpon>Tela_Cadastro_funcionario.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Telas Produtos\Pag4.resx">
       <DependentUpon>Pag4.cs</DependentUpon>
     </EmbeddedResource>
@@ -141,14 +159,17 @@
     <EmbeddedResource Include="Telas Produtos\Pag1.resx">
       <DependentUpon>Pag1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Telas\TelaCadastro.resx">
-      <DependentUpon>TelaCadastro.cs</DependentUpon>
+    <EmbeddedResource Include="Telas\TelaCadastro_cliente.resx">
+      <DependentUpon>TelaCadastro_cliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Telas\TelaCardapio.resx">
       <DependentUpon>TelaCardapio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Telas\TelaCarrinho.resx">
       <DependentUpon>TelaCarrinho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\TelaGerenciadorCardapio.resx">
+      <DependentUpon>TelaGerenciadorCardapio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Telas\TelaInicio.resx">
       <DependentUpon>TelaInicio.cs</DependentUpon>
@@ -158,6 +179,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Telas\TelaPagamento.resx">
       <DependentUpon>TelaPagamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\Tela_Cadastro_funcionario.resx">
+      <DependentUpon>Tela_Cadastro_funcionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\TipoPerfil.resx">
+      <DependentUpon>TipoPerfil.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

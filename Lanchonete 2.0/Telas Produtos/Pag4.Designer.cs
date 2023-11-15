@@ -65,7 +65,7 @@
             this.panel1.Controls.Add(this.bt_verpreco_tapioca);
             this.panel1.Location = new System.Drawing.Point(58, 27);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(684, 597);
+            this.panel1.Size = new System.Drawing.Size(649, 597);
             this.panel1.TabIndex = 11;
             // 
             // panel3
@@ -76,7 +76,7 @@
             this.panel3.Controls.Add(this.bt_verpreco_hamburguer);
             this.panel3.Location = new System.Drawing.Point(26, 398);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(674, 170);
+            this.panel3.Size = new System.Drawing.Size(642, 170);
             this.panel3.TabIndex = 11;
             // 
             // label3
@@ -277,10 +277,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 650);
+            this.ClientSize = new System.Drawing.Size(829, 650);
             this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
             this.Name = "Pag4";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Pag4";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

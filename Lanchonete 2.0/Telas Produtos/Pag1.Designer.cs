@@ -65,7 +65,7 @@
             this.panel1.Controls.Add(this.bt_verpreco_pizza);
             this.panel1.Location = new System.Drawing.Point(58, 27);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(684, 597);
+            this.panel1.Size = new System.Drawing.Size(649, 611);
             this.panel1.TabIndex = 9;
             // 
             // panel4
@@ -94,9 +94,9 @@
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(-21, -114);
+            this.pictureBox4.Location = new System.Drawing.Point(-21, -142);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(293, 431);
+            this.pictureBox4.Size = new System.Drawing.Size(293, 459);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 6;
             this.pictureBox4.TabStop = false;
@@ -277,11 +277,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 650);
+            this.ClientSize = new System.Drawing.Size(856, 650);
             this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
             this.Name = "Pag1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Pag1";
+            this.Load += new System.EventHandler(this.Pag1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel4.ResumeLayout(false);

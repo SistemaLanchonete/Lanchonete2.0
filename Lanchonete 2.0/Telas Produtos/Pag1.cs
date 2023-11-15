@@ -73,5 +73,10 @@ namespace Lanchonete_2._0
         {
             bt_estoque_milksheik.Text = "Disponível";
         }
+
+        private void Pag1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

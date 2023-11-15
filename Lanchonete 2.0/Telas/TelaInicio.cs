@@ -26,7 +26,7 @@ namespace Lanchonete_2._0
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            TelaCadastro a = new TelaCadastro();
+            TipoPerfil a = new TipoPerfil();
             a.ShowDialog();
         }
 
@@ -34,6 +34,11 @@ namespace Lanchonete_2._0
         {
             TelaLogin a = new TelaLogin();
             a.ShowDialog();
+        }
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

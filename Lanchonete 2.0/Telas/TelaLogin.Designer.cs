@@ -28,66 +28,225 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaLogin));
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.bt_salvar = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.bt_cardapio = new Guna.UI2.WinForms.Guna2Button();
+            this.tx_senha = new Guna.UI2.WinForms.Guna2TextBox();
+            this.tx_email = new Guna.UI2.WinForms.Guna2TextBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // textBox1
+            // guna2Button1
             // 
-            this.textBox1.Location = new System.Drawing.Point(341, 143);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 0;
+            this.guna2Button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("guna2Button1.BackgroundImage")));
+            this.guna2Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.guna2Button1.BorderRadius = 70;
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.Location = new System.Drawing.Point(480, 232);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.Size = new System.Drawing.Size(18, 19);
+            this.guna2Button1.TabIndex = 29;
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
-            // textBox2
+            // bt_salvar
             // 
-            this.textBox2.Location = new System.Drawing.Point(341, 190);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 22);
-            this.textBox2.TabIndex = 1;
+            this.bt_salvar.BackColor = System.Drawing.Color.Transparent;
+            this.bt_salvar.BorderRadius = 17;
+            this.bt_salvar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.bt_salvar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.bt_salvar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.bt_salvar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.bt_salvar.FillColor = System.Drawing.Color.Gray;
+            this.bt_salvar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_salvar.ForeColor = System.Drawing.Color.White;
+            this.bt_salvar.Location = new System.Drawing.Point(206, 283);
+            this.bt_salvar.Name = "bt_salvar";
+            this.bt_salvar.Size = new System.Drawing.Size(180, 45);
+            this.bt_salvar.TabIndex = 28;
+            this.bt_salvar.Text = "Salvar";
+            this.bt_salvar.Click += new System.EventHandler(this.bt_salvar_Click);
             // 
-            // button1
+            // guna2Button2
             // 
-            this.button1.Location = new System.Drawing.Point(264, 244);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.guna2Button2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("guna2Button2.BackgroundImage")));
+            this.guna2Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.guna2Button2.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button2.BorderRadius = 19;
+            this.guna2Button2.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
+            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button2.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button2.ForeColor = System.Drawing.Color.White;
+            this.guna2Button2.ImageOffset = new System.Drawing.Point(1, 0);
+            this.guna2Button2.Location = new System.Drawing.Point(43, 54);
+            this.guna2Button2.Name = "guna2Button2";
+            this.guna2Button2.PressedColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.guna2Button2.PressedDepth = 2;
+            this.guna2Button2.Size = new System.Drawing.Size(39, 57);
+            this.guna2Button2.TabIndex = 26;
+            this.guna2Button2.TextRenderingHint = System.Drawing.Text.TextRenderingHint.AntiAlias;
+            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
-            // button2
+            // bt_cardapio
             // 
-            this.button2.Location = new System.Drawing.Point(431, 244);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.bt_cardapio.AnimatedGIF = true;
+            this.bt_cardapio.BackColor = System.Drawing.Color.Transparent;
+            this.bt_cardapio.BorderColor = System.Drawing.SystemColors.Desktop;
+            this.bt_cardapio.BorderRadius = 19;
+            this.bt_cardapio.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.bt_cardapio.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.bt_cardapio.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.bt_cardapio.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.bt_cardapio.Enabled = false;
+            this.bt_cardapio.FillColor = System.Drawing.Color.Gray;
+            this.bt_cardapio.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_cardapio.ForeColor = System.Drawing.SystemColors.Window;
+            this.bt_cardapio.Location = new System.Drawing.Point(394, 282);
+            this.bt_cardapio.Name = "bt_cardapio";
+            this.bt_cardapio.Size = new System.Drawing.Size(211, 46);
+            this.bt_cardapio.TabIndex = 25;
+            this.bt_cardapio.Text = "Visualizar Cardápio";
+            this.bt_cardapio.Click += new System.EventHandler(this.bt_cardapio_Click);
             // 
-            // button3
+            // tx_senha
             // 
-            this.button3.Location = new System.Drawing.Point(689, 390);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.tx_senha.BackColor = System.Drawing.Color.Transparent;
+            this.tx_senha.BorderRadius = 17;
+            this.tx_senha.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tx_senha.DefaultText = "";
+            this.tx_senha.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.tx_senha.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.tx_senha.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_senha.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_senha.FillColor = System.Drawing.SystemColors.ButtonFace;
+            this.tx_senha.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_senha.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.tx_senha.ForeColor = System.Drawing.Color.Black;
+            this.tx_senha.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_senha.Location = new System.Drawing.Point(167, 224);
+            this.tx_senha.Name = "tx_senha";
+            this.tx_senha.PasswordChar = '\0';
+            this.tx_senha.PlaceholderForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.tx_senha.PlaceholderText = "";
+            this.tx_senha.SelectedText = "";
+            this.tx_senha.Size = new System.Drawing.Size(367, 31);
+            this.tx_senha.TabIndex = 24;
+            // 
+            // tx_email
+            // 
+            this.tx_email.BackColor = System.Drawing.Color.Transparent;
+            this.tx_email.BorderRadius = 17;
+            this.tx_email.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tx_email.DefaultText = "";
+            this.tx_email.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.tx_email.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.tx_email.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_email.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_email.FillColor = System.Drawing.SystemColors.ButtonFace;
+            this.tx_email.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_email.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.tx_email.ForeColor = System.Drawing.Color.Black;
+            this.tx_email.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_email.Location = new System.Drawing.Point(167, 163);
+            this.tx_email.Name = "tx_email";
+            this.tx_email.PasswordChar = '\0';
+            this.tx_email.PlaceholderForeColor = System.Drawing.Color.Transparent;
+            this.tx_email.PlaceholderText = "";
+            this.tx_email.SelectedText = "";
+            this.tx_email.Size = new System.Drawing.Size(367, 31);
+            this.tx_email.TabIndex = 23;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.BackColor = System.Drawing.Color.Transparent;
+            this.checkBox1.Font = new System.Drawing.Font("Segoe UI Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.checkBox1.Location = new System.Drawing.Point(97, 284);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(102, 17);
+            this.checkBox1.TabIndex = 22;
+            this.checkBox1.Text = "Lembrar Senha";
+            this.checkBox1.UseVisualStyleBackColor = false;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox1.Location = new System.Drawing.Point(263, 54);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(171, 71);
+            this.pictureBox1.TabIndex = 21;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label3.Location = new System.Drawing.Point(93, 224);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(61, 21);
+            this.label3.TabIndex = 20;
+            this.label3.Text = "Senha:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label2.Location = new System.Drawing.Point(93, 163);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(53, 21);
+            this.label2.TabIndex = 19;
+            this.label2.Text = "Email";
             // 
             // TelaLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.ClientSize = new System.Drawing.Size(657, 383);
+            this.Controls.Add(this.guna2Button1);
+            this.Controls.Add(this.bt_salvar);
+            this.Controls.Add(this.guna2Button2);
+            this.Controls.Add(this.bt_cardapio);
+            this.Controls.Add(this.tx_senha);
+            this.Controls.Add(this.tx_email);
+            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.DoubleBuffered = true;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "TelaLogin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TelaLogin";
+            this.Load += new System.EventHandler(this.TelaLogin_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -95,10 +254,15 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button bt_salvar;
+        private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private Guna.UI2.WinForms.Guna2Button bt_cardapio;
+        private Guna.UI2.WinForms.Guna2TextBox tx_senha;
+        private Guna.UI2.WinForms.Guna2TextBox tx_email;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
     }
 }

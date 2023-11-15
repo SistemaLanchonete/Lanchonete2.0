@@ -7,3 +7,24 @@ C:\Users\2022102020014\Desktop\L. Programação (Elias)\4bim\02 - Lanchonete2.0\
 C:\Users\2022102020014\Desktop\L. Programação (Elias)\4bim\02 - Lanchonete2.0\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Telas.TelaLogin.resources
 C:\Users\2022102020014\Desktop\L. Programação (Elias)\4bim\02 - Lanchonete2.0\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete 2.0.csproj.GenerateResource.cache
 C:\Users\2022102020014\Desktop\L. Programação (Elias)\4bim\02 - Lanchonete2.0\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete 2.0.csproj.CoreCompileInputs.cache
+C:\Users\Family Torrente\Music\Sucesso\Lanchonete2.0\Lanchonete 2.0\bin\Debug\Lanchonete 2.0.exe.config
+C:\Users\Family Torrente\Music\Sucesso\Lanchonete2.0\Lanchonete 2.0\bin\Debug\Lanchonete 2.0.exe
+C:\Users\Family Torrente\Music\Sucesso\Lanchonete2.0\Lanchonete 2.0\bin\Debug\Lanchonete 2.0.pdb
+C:\Users\Family Torrente\Music\Sucesso\Lanchonete2.0\Lanchonete 2.0\bin\Debug\Guna.UI2.dll
+C:\Users\Family Torrente\Music\Sucesso\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete 2.0.csproj.AssemblyReference.cache
+C:\Users\Family Torrente\Music\Sucesso\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Properties.Resources.resources
+C:\Users\Family Torrente\Music\Sucesso\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Telas.TelaCadastro.resources
+C:\Users\Family Torrente\Music\Sucesso\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Telas.TelaCardapio.resources
+C:\Users\Family Torrente\Music\Sucesso\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Telas.TelaCarrinho.resources
+C:\Users\Family Torrente\Music\Sucesso\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.TelaInicio.resources
+C:\Users\Family Torrente\Music\Sucesso\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Telas.TelaLogin.resources
+C:\Users\Family Torrente\Music\Sucesso\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Telas.TelaPagamento.resources
+C:\Users\Family Torrente\Music\Sucesso\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete 2.0.csproj.GenerateResource.cache
+C:\Users\Family Torrente\Music\Sucesso\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete 2.0.csproj.CoreCompileInputs.cache
+C:\Users\Family Torrente\Music\Sucesso\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete 2.0.csproj.CopyComplete
+C:\Users\Family Torrente\Music\Sucesso\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete 2.0.exe
+C:\Users\Family Torrente\Music\Sucesso\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete 2.0.pdb
+C:\Users\Family Torrente\Music\Sucesso\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Pag4.resources
+C:\Users\Family Torrente\Music\Sucesso\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Pag2.resources
+C:\Users\Family Torrente\Music\Sucesso\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Pag3.resources
+C:\Users\Family Torrente\Music\Sucesso\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Pag1.resources

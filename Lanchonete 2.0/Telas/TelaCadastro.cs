@@ -15,11 +15,35 @@ namespace Lanchonete_2._0.Telas
         public TelaCadastro()
         {
             InitializeComponent();
+            label8.Text = "";
+            label9.Text = "";
+            label6.Text = "";
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void tx_nome_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void bt_salvar_cadrastro_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            tx_nome.Clear();
+            tx_Conf_email.Clear();
+            tx_senha.Clear();
+            tx_cpf.Clear();
+            tx_Conf_senha.Clear();
+            tx_Conf_email.Clear();
+            tx_Email.Clear();
+        }
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+            this.Close();   
         }
     }
 }

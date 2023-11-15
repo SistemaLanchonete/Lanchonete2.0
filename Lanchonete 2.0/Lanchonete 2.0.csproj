@@ -33,8 +33,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.4.5, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.5\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -51,6 +57,31 @@
     <Compile Include="Entidades\Cliente.cs" />
     <Compile Include="Entidades\Funcionario.cs" />
     <Compile Include="Entidades\Pessoa.cs" />
+    <Compile Include="Entidades\LembraSenha.cs" />
+    <Compile Include="Telas Produtos\Pag4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas Produtos\Pag4.Designer.cs">
+      <DependentUpon>Pag4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas Produtos\Pag2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas Produtos\Pag2.Designer.cs">
+      <DependentUpon>Pag2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas Produtos\Pag3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas Produtos\Pag3.Designer.cs">
+      <DependentUpon>Pag3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas Produtos\Pag1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas Produtos\Pag1.Designer.cs">
+      <DependentUpon>Pag1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Telas\TelaCadastro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +120,15 @@
     <Compile Include="Telas\TelaPagamento.Designer.cs">
       <DependentUpon>TelaPagamento.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Telas Produtos\Pag4.resx">
+      <DependentUpon>Pag4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas Produtos\Pag2.resx">
+      <DependentUpon>Pag2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas Produtos\Pag3.resx">
+      <DependentUpon>Pag3.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -98,8 +138,14 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Telas Produtos\Pag1.resx">
+      <DependentUpon>Pag1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Telas\TelaCadastro.resx">
       <DependentUpon>TelaCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas\TelaCardapio.resx">
+      <DependentUpon>TelaCardapio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Telas\TelaCarrinho.resx">
       <DependentUpon>TelaCarrinho.cs</DependentUpon>
@@ -110,6 +156,10 @@
     <EmbeddedResource Include="Telas\TelaLogin.resx">
       <DependentUpon>TelaLogin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Telas\TelaPagamento.resx">
+      <DependentUpon>TelaPagamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -84,6 +84,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1375, 82);
             this.panel1.TabIndex = 82;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // guna2Button3
             // 
@@ -121,6 +122,7 @@
             this.label12.Size = new System.Drawing.Size(420, 47);
             this.label12.TabIndex = 13;
             this.label12.Text = "Cadrasto de Funcionário";
+            this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
             // bt_salvar_cadrastro
             // 
@@ -157,6 +159,7 @@
             this.cb_sexo_fun.Name = "cb_sexo_fun";
             this.cb_sexo_fun.Size = new System.Drawing.Size(138, 36);
             this.cb_sexo_fun.TabIndex = 81;
+            this.cb_sexo_fun.SelectedIndexChanged += new System.EventHandler(this.cb_sexo_fun_SelectedIndexChanged);
             // 
             // tx_Conf_senha
             // 
@@ -178,6 +181,7 @@
             this.tx_Conf_senha.SelectedText = "";
             this.tx_Conf_senha.Size = new System.Drawing.Size(173, 34);
             this.tx_Conf_senha.TabIndex = 80;
+            this.tx_Conf_senha.TextChanged += new System.EventHandler(this.tx_Conf_senha_TextChanged);
             // 
             // tx_senha
             // 
@@ -199,6 +203,7 @@
             this.tx_senha.SelectedText = "";
             this.tx_senha.Size = new System.Drawing.Size(174, 34);
             this.tx_senha.TabIndex = 79;
+            this.tx_senha.TextChanged += new System.EventHandler(this.tx_senha_TextChanged);
             // 
             // tx_Email
             // 
@@ -266,6 +271,7 @@
             this.tx_nome.SelectedText = "";
             this.tx_nome.Size = new System.Drawing.Size(305, 36);
             this.tx_nome.TabIndex = 76;
+            this.tx_nome.TextChanged += new System.EventHandler(this.tx_nome_TextChanged);
             // 
             // lb_email_invalido
             // 
@@ -278,6 +284,7 @@
             this.lb_email_invalido.Size = new System.Drawing.Size(190, 22);
             this.lb_email_invalido.TabIndex = 75;
             this.lb_email_invalido.Text = "emails diferentes!";
+            this.lb_email_invalido.Click += new System.EventHandler(this.lb_email_invalido_Click);
             // 
             // lb_senha_invalido
             // 
@@ -290,6 +297,7 @@
             this.lb_senha_invalido.Size = new System.Drawing.Size(180, 22);
             this.lb_senha_invalido.TabIndex = 74;
             this.lb_senha_invalido.Text = "Senhas distintas!";
+            this.lb_senha_invalido.Click += new System.EventHandler(this.lb_senha_invalido_Click);
             // 
             // lb_cpf
             // 
@@ -302,6 +310,7 @@
             this.lb_cpf.Size = new System.Drawing.Size(130, 22);
             this.lb_cpf.TabIndex = 73;
             this.lb_cpf.Text = "cpf inválido";
+            this.lb_cpf.Click += new System.EventHandler(this.lb_cpf_Click);
             // 
             // label4
             // 
@@ -314,6 +323,7 @@
             this.label4.Size = new System.Drawing.Size(150, 22);
             this.label4.TabIndex = 72;
             this.label4.Text = "Confir. email:";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label1
             // 
@@ -326,6 +336,7 @@
             this.label1.Size = new System.Drawing.Size(70, 22);
             this.label1.TabIndex = 71;
             this.label1.Text = "Email:";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // tx_data_fun
             // 
@@ -346,6 +357,7 @@
             this.tx_cpf.Name = "tx_cpf";
             this.tx_cpf.Size = new System.Drawing.Size(153, 20);
             this.tx_cpf.TabIndex = 69;
+            this.tx_cpf.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.tx_cpf_MaskInputRejected);
             // 
             // label11
             // 
@@ -358,6 +370,7 @@
             this.label11.Size = new System.Drawing.Size(50, 22);
             this.label11.TabIndex = 68;
             this.label11.Text = "CPF:";
+            this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // label10
             // 
@@ -370,6 +383,7 @@
             this.label10.Size = new System.Drawing.Size(200, 22);
             this.label10.TabIndex = 67;
             this.label10.Text = "Data de Nascimento:";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // label7
             // 
@@ -382,6 +396,7 @@
             this.label7.Size = new System.Drawing.Size(150, 22);
             this.label7.TabIndex = 66;
             this.label7.Text = "Confir. Senha:";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // label5
             // 
@@ -394,6 +409,7 @@
             this.label5.Size = new System.Drawing.Size(70, 22);
             this.label5.TabIndex = 65;
             this.label5.Text = "Senha:";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label3
             // 
@@ -406,6 +422,7 @@
             this.label3.Size = new System.Drawing.Size(60, 22);
             this.label3.TabIndex = 64;
             this.label3.Text = "Sexo:";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label2
             // 
@@ -419,6 +436,7 @@
             this.label2.Size = new System.Drawing.Size(60, 22);
             this.label2.TabIndex = 63;
             this.label2.Text = "Nome:";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // cb_cargos_fun
             // 
@@ -445,6 +463,7 @@
             this.cb_cargos_fun.Name = "cb_cargos_fun";
             this.cb_cargos_fun.Size = new System.Drawing.Size(267, 36);
             this.cb_cargos_fun.TabIndex = 85;
+            this.cb_cargos_fun.SelectedIndexChanged += new System.EventHandler(this.cb_cargos_fun_SelectedIndexChanged);
             // 
             // label13
             // 
@@ -457,6 +476,7 @@
             this.label13.Size = new System.Drawing.Size(70, 22);
             this.label13.TabIndex = 86;
             this.label13.Text = "Cargo:";
+            this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
             // Tela_Cadastro_funcionario
             // 

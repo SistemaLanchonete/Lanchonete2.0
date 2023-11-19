@@ -146,5 +146,105 @@ namespace Lanchonete_2._0
         {
 
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cb_sexo_fun_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tx_Conf_senha_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tx_senha_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tx_nome_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lb_email_invalido_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lb_senha_invalido_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lb_cpf_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tx_cpf_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cb_cargos_fun_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

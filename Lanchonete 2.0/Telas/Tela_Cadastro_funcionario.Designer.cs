@@ -264,6 +264,7 @@
             this.tx_nome.SelectedText = "";
             this.tx_nome.Size = new System.Drawing.Size(305, 36);
             this.tx_nome.TabIndex = 76;
+            this.tx_nome.TextChanged += new System.EventHandler(this.tx_nome_TextChanged);
             // 
             // lb_email_invalido
             // 
@@ -300,6 +301,7 @@
             this.lb_cpf.Size = new System.Drawing.Size(130, 22);
             this.lb_cpf.TabIndex = 73;
             this.lb_cpf.Text = "cpf inválido";
+            this.lb_cpf.Click += new System.EventHandler(this.lb_cpf_Click);
             // 
             // label4
             // 

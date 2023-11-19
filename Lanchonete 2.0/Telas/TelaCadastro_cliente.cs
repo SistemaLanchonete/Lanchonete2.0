@@ -51,7 +51,7 @@ namespace Lanchonete_2._0.Telas
                     writer.WriteLine($"Nome: {tx_nome.Text}");
                     writer.WriteLine($"CPF: {tx_cpf.Text}");
                     writer.WriteLine($"Senha: {tx_senha.Text}");
-                    writer.WriteLine($"Email: {tx_Conf_email.Text}");
+                    writer.WriteLine($"Email: {tx_Email.Text}");
 
                     writer.WriteLine();
                 }

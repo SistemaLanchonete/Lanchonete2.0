@@ -37,21 +37,20 @@ namespace Lanchonete_2._0
             string caminhoArquivo = Path.Combine(pasta, "ArquivoFuncionario.txt");
 
             try
-            {
+            {             
                 // Cria um link para a pasta e escreve no arquivo de texto
-                using (StreamWriter writer = new StreamWriter(caminhoArquivo, true))
+               using (StreamWriter writer = new StreamWriter(caminhoArquivo, true))
                 {
-                    writer.WriteLine();// Escreve o link da pasta
-                    writer.WriteLine(pasta);
-
+      
                     // Escreve os dados da pessoa
                     writer.WriteLine($"Nome: {tx_nome.Text}");
                     writer.WriteLine($"CPF: {tx_cpf.Text}");
                     writer.WriteLine($"Senha: {tx_senha.Text}");
-                    writer.WriteLine($"Email: {tx_Conf_email.Text}");
+                    writer.WriteLine($"Email: {tx_Email.Text}");
                     writer.WriteLine();
-                }
 
+                }
+            
                 MessageBox.Show("Link da pasta e dados da pessoa salvos com sucesso!");
             }
             catch (Exception ex)
@@ -130,6 +129,16 @@ namespace Lanchonete_2._0
         }
 
         private void guna2ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lb_cpf_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tx_nome_TextChanged(object sender, EventArgs e)
         {
 
         }

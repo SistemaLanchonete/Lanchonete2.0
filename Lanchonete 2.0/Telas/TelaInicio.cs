@@ -19,10 +19,6 @@ namespace Lanchonete_2._0
             InitializeComponent();
         }
 
-        private void guna2Panel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {

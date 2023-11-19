@@ -31,3 +31,27 @@ C:\Users\Family Torrente\Music\Sucesso\Lanchonete2.0\Lanchonete 2.0\obj\Debug\La
 C:\Users\Family Torrente\Music\Sucesso\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Tela_Cadastro_funcionario.resources
 C:\Users\Family Torrente\Music\Sucesso\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Telas.TelaCadastro_cliente.resources
 C:\Users\Family Torrente\Music\Sucesso\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.TelaGerenciadorCardapio.resources
+C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\bin\Debug\Lanchonete 2.0.exe.config
+C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\bin\Debug\Lanchonete 2.0.exe
+C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\bin\Debug\Lanchonete 2.0.pdb
+C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\bin\Debug\Guna.UI2.dll
+C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete 2.0.csproj.AssemblyReference.cache
+C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Pag4.resources
+C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Pag2.resources
+C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Pag3.resources
+C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Properties.Resources.resources
+C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Pag1.resources
+C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Telas.TelaCadastro_cliente.resources
+C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Telas.TelaCardapio.resources
+C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Telas.TelaCarrinho.resources
+C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.TelaGerenciadorCardapio.resources
+C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.TelaInicio.resources
+C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Telas.TelaLogin.resources
+C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Telas.TelaPagamento.resources
+C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Tela_Cadastro_funcionario.resources
+C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.TipoPerfil.resources
+C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete 2.0.csproj.GenerateResource.cache
+C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete 2.0.csproj.CoreCompileInputs.cache
+C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete 2.0.csproj.CopyComplete
+C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete 2.0.exe
+C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete 2.0.pdb

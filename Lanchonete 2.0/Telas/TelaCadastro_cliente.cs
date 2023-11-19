@@ -46,13 +46,12 @@ namespace Lanchonete_2._0.Telas
                 // Cria um link para a pasta e escreve no arquivo de texto
                 using (StreamWriter writer = new StreamWriter(caminhoArquivo, true)) // O segundo parâmetro "true" indica modo de adição
                 {
-                    writer.WriteLine();
-                    // Escreve os dados da pessoa
-                    writer.WriteLine($"Nome: {tx_nome.Text}");
-                    writer.WriteLine($"CPF: {tx_cpf.Text}");
-                    writer.WriteLine($"Senha: {tx_senha.Text}");
-                    writer.WriteLine($"Email: {tx_Email.Text}");
-
+                    writer.WriteLine($"\nNome: {tx_nome_cli.Text}");
+                    writer.WriteLine($"CPF: {tx_cpf_cli.Text}");
+                    writer.WriteLine($"Senha: {tx_senha_cli.Text}");
+                    writer.WriteLine($"Email: {tx_Email_cli.Text}");
+                    writer.WriteLine($"Data nascimento: {mx_date_cli.Text}");                
+                    writer.WriteLine($"Sexo: {cb_sexo_cli.SelectedItem}");
                     writer.WriteLine();
                 }
 
@@ -66,7 +65,7 @@ namespace Lanchonete_2._0.Telas
 
 
             Pessoa pessoa = new Pessoa();
-            string cpf = tx_cpf.Text;
+            string cpf = tx_cpf_cli.Text;
 
             try
             {
@@ -80,7 +79,7 @@ namespace Lanchonete_2._0.Telas
                 {
                     label6.ForeColor = Color.Red;
                     label6.Text = "CPF é inválido";
-                    tx_cpf.Clear();
+                    tx_cpf_cli.Clear();
                     Console.ResetColor();
                 }
             }
@@ -90,10 +89,10 @@ namespace Lanchonete_2._0.Telas
                 Console.WriteLine($"Erro ao validar CPF: {ex.Message}");
             }
 
-            if (tx_senha.Text == tx_Conf_senha.Text)
+            if (tx_senha_cli.Text == tx_Conf_senha_cli.Text)
             {
 
-                MessageBox.Show(tx_nome.Text + " " + tx_cpf.Text + " " + label1.Text + " " + tx_senha.Text + " " + tx_Conf_senha.Text);
+                MessageBox.Show(tx_nome_cli.Text + " " + tx_cpf_cli.Text + " " + label1.Text + " " + tx_senha_cli.Text + " " + tx_Conf_senha_cli.Text);
 
 
             }
@@ -103,10 +102,10 @@ namespace Lanchonete_2._0.Telas
                 label8.Text = "As senha não são as mesmas!";
             }
 
-            if (label1.Text == tx_Conf_email.Text)
+            if (label1.Text == tx_Conf_email_cli.Text)
             {
 
-                MessageBox.Show(tx_nome.Text + " " + tx_cpf.Text + " " + label1.Text + " " + tx_senha.Text + " " + tx_Conf_senha.Text + " " + tx_Conf_email.Text);
+                MessageBox.Show(tx_nome_cli.Text + " " + tx_cpf_cli.Text + " " + label1.Text + " " + tx_senha_cli.Text + " " + tx_Conf_senha_cli.Text + " " + tx_Conf_email_cli.Text);
             }
             else
             {
@@ -118,13 +117,13 @@ namespace Lanchonete_2._0.Telas
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-            tx_nome.Clear();
-            tx_Conf_email.Clear();
-            tx_senha.Clear();
-            tx_cpf.Clear();
-            tx_Conf_senha.Clear();
-            tx_Conf_email.Clear();
-            tx_Email.Clear();
+            tx_nome_cli.Clear();
+            tx_Conf_email_cli.Clear();
+            tx_senha_cli.Clear();
+            tx_cpf_cli.Clear();
+            tx_Conf_senha_cli.Clear();
+            tx_Conf_email_cli.Clear();
+            tx_Email_cli.Clear();
         }
 
         private void guna2Button3_Click(object sender, EventArgs e)
@@ -148,6 +147,11 @@ namespace Lanchonete_2._0.Telas
         }
 
         private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tx_cpf_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
         {
 
         }

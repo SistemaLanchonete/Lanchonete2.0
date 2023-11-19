@@ -72,7 +72,7 @@ namespace Lanchonete_2._0
 
         private void bt_estoque_hamburguer_Click(object sender, EventArgs e)
         {
-            bt_estoque_hamburguer.Text = "Indiponível";
+            bt_estoque_hamburguer.Text = "Disponível";
         }
     }
 }

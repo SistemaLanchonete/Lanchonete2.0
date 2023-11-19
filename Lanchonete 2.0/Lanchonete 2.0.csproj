@@ -52,18 +52,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\Produto.cs" />
     <Compile Include="Classes\ValidaCpf.cs" />
     <Compile Include="Entidades\Cliente.cs" />
     <Compile Include="Entidades\Funcionario.cs" />
     <Compile Include="Entidades\Pessoa.cs" />
     <Compile Include="Entidades\LembraSenha.cs" />
-    <Compile Include="Telas\TelaGerenciadorCardapio.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Telas\TelaGerenciadorCardapio.Designer.cs">
-      <DependentUpon>TelaGerenciadorCardapio.cs</DependentUpon>
-    </Compile>
     <Compile Include="Telas Produtos\Pag4.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,11 +87,13 @@
     <Compile Include="Telas\TelaCadastro_cliente.Designer.cs">
       <DependentUpon>TelaCadastro_cliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="Telas\TelaCardapio.cs">
+    <Compile Include="Telas Produtos\TelaCardapio.cs">
       <SubType>Form</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
-    <Compile Include="Telas\TelaCardapio.Designer.cs">
+    <Compile Include="Telas Produtos\TelaCardapio.Designer.cs">
       <DependentUpon>TelaCardapio.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="Telas\TelaCarrinho.cs">
       <SubType>Form</SubType>
@@ -108,9 +103,11 @@
     </Compile>
     <Compile Include="Telas\TelaInicio.cs">
       <SubType>Form</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="Telas\TelaInicio.Designer.cs">
       <DependentUpon>TelaInicio.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -162,17 +159,16 @@
     <EmbeddedResource Include="Telas\TelaCadastro_cliente.resx">
       <DependentUpon>TelaCadastro_cliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Telas\TelaCardapio.resx">
+    <EmbeddedResource Include="Telas Produtos\TelaCardapio.resx">
       <DependentUpon>TelaCardapio.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Telas\TelaCarrinho.resx">
       <DependentUpon>TelaCarrinho.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Telas\TelaGerenciadorCardapio.resx">
-      <DependentUpon>TelaGerenciadorCardapio.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Telas\TelaInicio.resx">
       <DependentUpon>TelaInicio.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Telas\TelaLogin.resx">
       <DependentUpon>TelaLogin.cs</DependentUpon>

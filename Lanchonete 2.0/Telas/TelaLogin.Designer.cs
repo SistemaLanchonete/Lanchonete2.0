@@ -147,7 +147,7 @@
             this.tx_senha.SelectedText = "";
             this.tx_senha.Size = new System.Drawing.Size(367, 31);
             this.tx_senha.TabIndex = 24;
-            this.tx_senha.TextChanged += new System.EventHandler(this.tx_senha_TextChanged);
+           
             // 
             // tx_email
             // 

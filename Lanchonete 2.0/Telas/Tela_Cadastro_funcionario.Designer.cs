@@ -34,7 +34,7 @@
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.label12 = new System.Windows.Forms.Label();
             this.bt_salvar_cadrastro = new Guna.UI2.WinForms.Guna2Button();
-            this.cb_sexo = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.cb_sexo_fun = new Guna.UI2.WinForms.Guna2ComboBox();
             this.tx_Conf_senha = new Guna.UI2.WinForms.Guna2TextBox();
             this.tx_senha = new Guna.UI2.WinForms.Guna2TextBox();
             this.tx_Email = new Guna.UI2.WinForms.Guna2TextBox();
@@ -45,7 +45,7 @@
             this.lb_cpf = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
+            this.tx_data_fun = new System.Windows.Forms.MaskedTextBox();
             this.tx_cpf = new System.Windows.Forms.MaskedTextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
@@ -53,7 +53,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.cb_cargos = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.cb_cargos_fun = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label13 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -139,24 +139,24 @@
             this.bt_salvar_cadrastro.Text = "Salvar";
             this.bt_salvar_cadrastro.Click += new System.EventHandler(this.bt_salvar_cadrastro_Click);
             // 
-            // cb_sexo
+            // cb_sexo_fun
             // 
-            this.cb_sexo.BackColor = System.Drawing.Color.Transparent;
-            this.cb_sexo.BorderRadius = 18;
-            this.cb_sexo.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cb_sexo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cb_sexo.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cb_sexo.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cb_sexo.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.cb_sexo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.cb_sexo.ItemHeight = 30;
-            this.cb_sexo.Items.AddRange(new object[] {
+            this.cb_sexo_fun.BackColor = System.Drawing.Color.Transparent;
+            this.cb_sexo_fun.BorderRadius = 18;
+            this.cb_sexo_fun.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cb_sexo_fun.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cb_sexo_fun.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cb_sexo_fun.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cb_sexo_fun.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cb_sexo_fun.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.cb_sexo_fun.ItemHeight = 30;
+            this.cb_sexo_fun.Items.AddRange(new object[] {
             "Masculino",
             "Feminino"});
-            this.cb_sexo.Location = new System.Drawing.Point(116, 253);
-            this.cb_sexo.Name = "cb_sexo";
-            this.cb_sexo.Size = new System.Drawing.Size(138, 36);
-            this.cb_sexo.TabIndex = 81;
+            this.cb_sexo_fun.Location = new System.Drawing.Point(116, 253);
+            this.cb_sexo_fun.Name = "cb_sexo_fun";
+            this.cb_sexo_fun.Size = new System.Drawing.Size(138, 36);
+            this.cb_sexo_fun.TabIndex = 81;
             // 
             // tx_Conf_senha
             // 
@@ -220,6 +220,7 @@
             this.tx_Email.SelectedText = "";
             this.tx_Email.Size = new System.Drawing.Size(267, 38);
             this.tx_Email.TabIndex = 78;
+            this.tx_Email.TextChanged += new System.EventHandler(this.tx_Email_TextChanged);
             // 
             // tx_Conf_email
             // 
@@ -241,6 +242,7 @@
             this.tx_Conf_email.SelectedText = "";
             this.tx_Conf_email.Size = new System.Drawing.Size(267, 39);
             this.tx_Conf_email.TabIndex = 77;
+            this.tx_Conf_email.TextChanged += new System.EventHandler(this.tx_Conf_email_TextChanged);
             // 
             // tx_nome
             // 
@@ -264,7 +266,6 @@
             this.tx_nome.SelectedText = "";
             this.tx_nome.Size = new System.Drawing.Size(305, 36);
             this.tx_nome.TabIndex = 76;
-            this.tx_nome.TextChanged += new System.EventHandler(this.tx_nome_TextChanged);
             // 
             // lb_email_invalido
             // 
@@ -301,7 +302,6 @@
             this.lb_cpf.Size = new System.Drawing.Size(130, 22);
             this.lb_cpf.TabIndex = 73;
             this.lb_cpf.Text = "cpf inválido";
-            this.lb_cpf.Click += new System.EventHandler(this.lb_cpf_Click);
             // 
             // label4
             // 
@@ -327,15 +327,16 @@
             this.label1.TabIndex = 71;
             this.label1.Text = "Email:";
             // 
-            // maskedTextBox2
+            // tx_data_fun
             // 
-            this.maskedTextBox2.Location = new System.Drawing.Point(255, 306);
-            this.maskedTextBox2.Margin = new System.Windows.Forms.Padding(2);
-            this.maskedTextBox2.Mask = "00/00/0000 ";
-            this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(121, 20);
-            this.maskedTextBox2.TabIndex = 70;
-            this.maskedTextBox2.ValidatingType = typeof(System.DateTime);
+            this.tx_data_fun.Location = new System.Drawing.Point(255, 306);
+            this.tx_data_fun.Margin = new System.Windows.Forms.Padding(2);
+            this.tx_data_fun.Mask = "00/00/0000 ";
+            this.tx_data_fun.Name = "tx_data_fun";
+            this.tx_data_fun.Size = new System.Drawing.Size(121, 20);
+            this.tx_data_fun.TabIndex = 70;
+            this.tx_data_fun.ValidatingType = typeof(System.DateTime);
+            this.tx_data_fun.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.tx_data_fun_MaskInputRejected);
             // 
             // tx_cpf
             // 
@@ -419,19 +420,19 @@
             this.label2.TabIndex = 63;
             this.label2.Text = "Nome:";
             // 
-            // cb_cargos
+            // cb_cargos_fun
             // 
-            this.cb_cargos.AutoRoundedCorners = true;
-            this.cb_cargos.BackColor = System.Drawing.Color.Transparent;
-            this.cb_cargos.BorderRadius = 17;
-            this.cb_cargos.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cb_cargos.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cb_cargos.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cb_cargos.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cb_cargos.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.cb_cargos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.cb_cargos.ItemHeight = 30;
-            this.cb_cargos.Items.AddRange(new object[] {
+            this.cb_cargos_fun.AutoRoundedCorners = true;
+            this.cb_cargos_fun.BackColor = System.Drawing.Color.Transparent;
+            this.cb_cargos_fun.BorderRadius = 17;
+            this.cb_cargos_fun.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cb_cargos_fun.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cb_cargos_fun.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cb_cargos_fun.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cb_cargos_fun.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cb_cargos_fun.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.cb_cargos_fun.ItemHeight = 30;
+            this.cb_cargos_fun.Items.AddRange(new object[] {
             "Cozinhero(a)",
             "Atendente de Caixa",
             "Auxiliador Reposição de Alimentos",
@@ -440,11 +441,10 @@
             "Auxiliar de Estoque",
             "Auxiliar de Manutenção",
             "Gerente de Lanchonete"});
-            this.cb_cargos.Location = new System.Drawing.Point(615, 130);
-            this.cb_cargos.Name = "cb_cargos";
-            this.cb_cargos.Size = new System.Drawing.Size(267, 36);
-            this.cb_cargos.TabIndex = 85;
-            this.cb_cargos.SelectedIndexChanged += new System.EventHandler(this.guna2ComboBox1_SelectedIndexChanged);
+            this.cb_cargos_fun.Location = new System.Drawing.Point(615, 130);
+            this.cb_cargos_fun.Name = "cb_cargos_fun";
+            this.cb_cargos_fun.Size = new System.Drawing.Size(267, 36);
+            this.cb_cargos_fun.TabIndex = 85;
             // 
             // label13
             // 
@@ -464,11 +464,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(918, 576);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.cb_cargos);
+            this.Controls.Add(this.cb_cargos_fun);
             this.Controls.Add(this.bt_Cancelar_Cadastro);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.bt_salvar_cadrastro);
-            this.Controls.Add(this.cb_sexo);
+            this.Controls.Add(this.cb_sexo_fun);
             this.Controls.Add(this.tx_Conf_senha);
             this.Controls.Add(this.tx_senha);
             this.Controls.Add(this.tx_Email);
@@ -479,7 +479,7 @@
             this.Controls.Add(this.lb_cpf);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.maskedTextBox2);
+            this.Controls.Add(this.tx_data_fun);
             this.Controls.Add(this.tx_cpf);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
@@ -505,7 +505,7 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button3;
         private System.Windows.Forms.Label label12;
         private Guna.UI2.WinForms.Guna2Button bt_salvar_cadrastro;
-        private Guna.UI2.WinForms.Guna2ComboBox cb_sexo;
+        private Guna.UI2.WinForms.Guna2ComboBox cb_sexo_fun;
         private Guna.UI2.WinForms.Guna2TextBox tx_Conf_senha;
         private Guna.UI2.WinForms.Guna2TextBox tx_senha;
         private Guna.UI2.WinForms.Guna2TextBox tx_Email;
@@ -516,7 +516,7 @@
         private System.Windows.Forms.Label lb_cpf;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
+        private System.Windows.Forms.MaskedTextBox tx_data_fun;
         private System.Windows.Forms.MaskedTextBox tx_cpf;
         public System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
@@ -525,6 +525,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         public System.Windows.Forms.Label label13;
-        private Guna.UI2.WinForms.Guna2ComboBox cb_cargos;
+        private Guna.UI2.WinForms.Guna2ComboBox cb_cargos_fun;
     }
 }

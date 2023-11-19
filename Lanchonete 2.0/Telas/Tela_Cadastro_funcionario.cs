@@ -7,6 +7,7 @@ using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Runtime.DesignerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -43,10 +44,13 @@ namespace Lanchonete_2._0
                 {
       
                     // Escreve os dados da pessoa
-                    writer.WriteLine($"Nome: {tx_nome.Text}");
+                    writer.WriteLine($"\nNome: {tx_nome.Text}");
                     writer.WriteLine($"CPF: {tx_cpf.Text}");
                     writer.WriteLine($"Senha: {tx_senha.Text}");
                     writer.WriteLine($"Email: {tx_Email.Text}");
+                    writer.WriteLine($"Data nascimento: {tx_data_fun.Text}"); 
+                    writer.WriteLine($"Cargo: {cb_cargos_fun.SelectedItem}");
+                    writer.WriteLine($"Sexo: {cb_sexo_fun.SelectedItem}");
                     writer.WriteLine();
 
                 }
@@ -97,7 +101,7 @@ namespace Lanchonete_2._0
                 lb_senha_invalido.Text = "As senha não são as mesmas!";
             }
 
-            if (label1.Text == tx_Conf_email.Text)
+            if (tx_Email.Text == tx_Conf_email.Text)
             {
 
                 MessageBox.Show(tx_nome.Text + " " + tx_cpf.Text + " " + label1.Text + " " + tx_senha.Text + " " + tx_Conf_senha.Text + " " + tx_Conf_email.Text);
@@ -119,7 +123,7 @@ namespace Lanchonete_2._0
             tx_Conf_senha.Clear();
             tx_Conf_email.Clear();
             tx_Email.Clear();
-            cb_cargos.Items.Remove(cb_cargos.SelectedItem);
+            cb_cargos_fun.Items.Remove(cb_cargos_fun.SelectedItem);
 
         }
 
@@ -128,17 +132,17 @@ namespace Lanchonete_2._0
             this.Close();
         }
 
-        private void guna2ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void tx_data_fun_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
         {
 
         }
 
-        private void lb_cpf_Click(object sender, EventArgs e)
+        private void tx_Conf_email_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void tx_nome_TextChanged(object sender, EventArgs e)
+        private void tx_Email_TextChanged(object sender, EventArgs e)
         {
 
         }

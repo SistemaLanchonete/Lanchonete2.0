@@ -52,9 +52,8 @@ namespace Lanchonete_2._0.Telas
             IniciarCompras();
         }
         private string ConstruirLinhaProduto(produto p)
-        {
-            string preco = p.preco.ToString("R$ 0.00");
-            return p.nome + new string(' ', 30 - p.nome.Length - preco.Length) + preco;
+        {        
+            return $"{p.nome,-30} {p.preco.ToString("R$ 0.00")}";
         }
         private void IniciarCompras()
         {
@@ -83,16 +82,6 @@ namespace Lanchonete_2._0.Telas
             AdicionarProdutoCompra(p);
         }
 
-        private void lista_compra_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lb_total_Click(object sender, EventArgs e)
-        {
-         
-        }
-
         private void bt_nvcompra_Click(object sender, EventArgs e)
         {
             IniciarCompras();
@@ -103,7 +92,7 @@ namespace Lanchonete_2._0.Telas
            
             if (LISTA_COMPRAS.Count > 0)
             {
-                MessageBox.Show("Compra Finalizada!" + Environment.NewLine + lb_total.Text);
+                
                 IniciarCompras();
                 TelaPagamento telapagamento = new TelaPagamento(valorTotal);
                 telapagamento.ShowDialog();
@@ -115,8 +104,12 @@ namespace Lanchonete_2._0.Telas
                 MessageBox.Show("Selecione pelo menos um produto para adicionar ao carrinho.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
 
-            
+     
         }
 
-  }
+        private void lista_compra_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+    }
 }

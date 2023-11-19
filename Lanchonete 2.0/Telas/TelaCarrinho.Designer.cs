@@ -34,7 +34,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.lista_produto = new System.Windows.Forms.ListBox();
-            this.guna2CheckBox1 = new Guna.UI2.WinForms.Guna2CheckBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
@@ -116,23 +115,6 @@
             this.lista_produto.TabIndex = 38;
             this.lista_produto.DoubleClick += new System.EventHandler(this.lista_produto_DoubleClick);
             // 
-            // guna2CheckBox1
-            // 
-            this.guna2CheckBox1.AutoSize = true;
-            this.guna2CheckBox1.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2CheckBox1.CheckedState.BorderRadius = 0;
-            this.guna2CheckBox1.CheckedState.BorderThickness = 0;
-            this.guna2CheckBox1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2CheckBox1.Location = new System.Drawing.Point(76, 137);
-            this.guna2CheckBox1.Name = "guna2CheckBox1";
-            this.guna2CheckBox1.Size = new System.Drawing.Size(104, 17);
-            this.guna2CheckBox1.TabIndex = 37;
-            this.guna2CheckBox1.Text = "Selecionar Tudo";
-            this.guna2CheckBox1.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.guna2CheckBox1.UncheckedState.BorderRadius = 0;
-            this.guna2CheckBox1.UncheckedState.BorderThickness = 0;
-            this.guna2CheckBox1.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ControlLightLight;
@@ -161,7 +143,7 @@
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(180, 45);
             this.guna2Button1.TabIndex = 35;
-            this.guna2Button1.Text = "Finalizar";
+            this.guna2Button1.Text = "Continuar";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // guna2CirclePictureBox1
@@ -198,7 +180,6 @@
             this.lb_total.TabIndex = 32;
             this.lb_total.Text = "COMPRAS";
             this.lb_total.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.lb_total.Click += new System.EventHandler(this.lb_total_Click);
             // 
             // bt_nvcompra
             // 
@@ -227,7 +208,6 @@
             this.Controls.Add(this.guna2Button3);
             this.Controls.Add(this.lista_compra);
             this.Controls.Add(this.lista_produto);
-            this.Controls.Add(this.guna2CheckBox1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.guna2CirclePictureBox1);
@@ -253,7 +233,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ListBox lista_produto;
-        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox1;
         private System.Windows.Forms.Panel panel1;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;

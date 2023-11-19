@@ -9,7 +9,7 @@ namespace Lanchonete_2._0.Telas
     {
         private const string pasta = @"C:\Users\Family Torrente\Desktop\Noia.Text";
         private const string arquivoClientes = "ArquivoCliente.txt";
-        bool emailEncontrado = false;
+        bool emailEncontrado = true;
         public TelaLogin()
         {
             InitializeComponent();
@@ -23,7 +23,7 @@ namespace Lanchonete_2._0.Telas
         private void bt_salvar_Click(object sender, EventArgs e)
         {
             string email = tx_email.Text.Trim();
-            string senha = tx_senha.Text;
+            string senha = tx_senha.Text.Trim();
 
             if (string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(senha)) // aviso de campo em branco
             {
@@ -119,9 +119,6 @@ namespace Lanchonete_2._0.Telas
             tx_senha.UseSystemPasswordChar = !tx_senha.UseSystemPasswordChar;
         }
 
-        private void tx_senha_TextChanged(object sender, EventArgs e)
-        {
-            
-        }
+       
     }
 }

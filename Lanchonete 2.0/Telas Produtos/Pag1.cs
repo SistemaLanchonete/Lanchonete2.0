@@ -66,7 +66,7 @@ namespace Lanchonete_2._0
 
         private void bt_estoque_churros_Click(object sender, EventArgs e)
         {
-            bt_estoque_churros.Text = "Indisponível";
+            bt_estoque_churros.Text = "Disponível";
         }
 
         private void bt_estoque_milksheik_Click(object sender, EventArgs e)

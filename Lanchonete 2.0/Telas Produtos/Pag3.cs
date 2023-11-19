@@ -37,7 +37,7 @@ namespace Lanchonete_2._0
 
         private void bt_estoque_coxinha_Click(object sender, EventArgs e)
         {
-            bt_estoque_coxinha.Text = "Indisponível";
+            bt_estoque_coxinha.Text = "Disponível";
         }
 
         private void bt_verpreco_pastel_Click(object sender, EventArgs e)
@@ -75,7 +75,7 @@ namespace Lanchonete_2._0
 
         private void bt_estoque_brownie_Click(object sender, EventArgs e)
         {
-            bt_estoque_brownie.Text = "Indisponível";
+            bt_estoque_brownie.Text = "Disponível";
         }
     }
 }

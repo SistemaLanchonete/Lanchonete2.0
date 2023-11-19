@@ -34,19 +34,19 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label12 = new System.Windows.Forms.Label();
             this.bt_salvar_cadrastro = new Guna.UI2.WinForms.Guna2Button();
-            this.cb_sexo = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.tx_Conf_senha = new Guna.UI2.WinForms.Guna2TextBox();
-            this.tx_senha = new Guna.UI2.WinForms.Guna2TextBox();
-            this.tx_Email = new Guna.UI2.WinForms.Guna2TextBox();
-            this.tx_Conf_email = new Guna.UI2.WinForms.Guna2TextBox();
-            this.tx_nome = new Guna.UI2.WinForms.Guna2TextBox();
+            this.cb_sexo_cli = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.tx_Conf_senha_cli = new Guna.UI2.WinForms.Guna2TextBox();
+            this.tx_senha_cli = new Guna.UI2.WinForms.Guna2TextBox();
+            this.tx_Email_cli = new Guna.UI2.WinForms.Guna2TextBox();
+            this.tx_Conf_email_cli = new Guna.UI2.WinForms.Guna2TextBox();
+            this.tx_nome_cli = new Guna.UI2.WinForms.Guna2TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
-            this.tx_cpf = new System.Windows.Forms.MaskedTextBox();
+            this.mx_date_cli = new System.Windows.Forms.MaskedTextBox();
+            this.tx_cpf_cli = new System.Windows.Forms.MaskedTextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -137,132 +137,132 @@
             this.bt_salvar_cadrastro.Text = "Salvar";
             this.bt_salvar_cadrastro.Click += new System.EventHandler(this.bt_salvar_cadrastro_Click);
             // 
-            // cb_sexo
+            // cb_sexo_cli
             // 
-            this.cb_sexo.BackColor = System.Drawing.Color.Transparent;
-            this.cb_sexo.BorderRadius = 18;
-            this.cb_sexo.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cb_sexo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cb_sexo.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cb_sexo.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cb_sexo.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.cb_sexo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.cb_sexo.ItemHeight = 30;
-            this.cb_sexo.Items.AddRange(new object[] {
+            this.cb_sexo_cli.BackColor = System.Drawing.Color.Transparent;
+            this.cb_sexo_cli.BorderRadius = 18;
+            this.cb_sexo_cli.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cb_sexo_cli.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cb_sexo_cli.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cb_sexo_cli.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cb_sexo_cli.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cb_sexo_cli.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.cb_sexo_cli.ItemHeight = 30;
+            this.cb_sexo_cli.Items.AddRange(new object[] {
             "Masculino",
             "Feminino"});
-            this.cb_sexo.Location = new System.Drawing.Point(633, 172);
-            this.cb_sexo.Name = "cb_sexo";
-            this.cb_sexo.Size = new System.Drawing.Size(246, 36);
-            this.cb_sexo.TabIndex = 59;
+            this.cb_sexo_cli.Location = new System.Drawing.Point(633, 172);
+            this.cb_sexo_cli.Name = "cb_sexo_cli";
+            this.cb_sexo_cli.Size = new System.Drawing.Size(246, 36);
+            this.cb_sexo_cli.TabIndex = 59;
             // 
-            // tx_Conf_senha
+            // tx_Conf_senha_cli
             // 
-            this.tx_Conf_senha.BorderRadius = 18;
-            this.tx_Conf_senha.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.tx_Conf_senha.DefaultText = "";
-            this.tx_Conf_senha.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tx_Conf_senha.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tx_Conf_senha.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tx_Conf_senha.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tx_Conf_senha.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tx_Conf_senha.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.tx_Conf_senha.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.tx_Conf_senha.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tx_Conf_senha.Location = new System.Drawing.Point(255, 388);
-            this.tx_Conf_senha.Name = "tx_Conf_senha";
-            this.tx_Conf_senha.PasswordChar = '\0';
-            this.tx_Conf_senha.PlaceholderText = "";
-            this.tx_Conf_senha.SelectedText = "";
-            this.tx_Conf_senha.Size = new System.Drawing.Size(281, 31);
-            this.tx_Conf_senha.TabIndex = 58;
+            this.tx_Conf_senha_cli.BorderRadius = 18;
+            this.tx_Conf_senha_cli.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tx_Conf_senha_cli.DefaultText = "";
+            this.tx_Conf_senha_cli.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.tx_Conf_senha_cli.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.tx_Conf_senha_cli.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_Conf_senha_cli.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_Conf_senha_cli.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_Conf_senha_cli.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.tx_Conf_senha_cli.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.tx_Conf_senha_cli.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_Conf_senha_cli.Location = new System.Drawing.Point(255, 388);
+            this.tx_Conf_senha_cli.Name = "tx_Conf_senha_cli";
+            this.tx_Conf_senha_cli.PasswordChar = '\0';
+            this.tx_Conf_senha_cli.PlaceholderText = "";
+            this.tx_Conf_senha_cli.SelectedText = "";
+            this.tx_Conf_senha_cli.Size = new System.Drawing.Size(281, 31);
+            this.tx_Conf_senha_cli.TabIndex = 58;
             // 
-            // tx_senha
+            // tx_senha_cli
             // 
-            this.tx_senha.BorderRadius = 18;
-            this.tx_senha.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.tx_senha.DefaultText = "";
-            this.tx_senha.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tx_senha.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tx_senha.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tx_senha.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tx_senha.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tx_senha.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.tx_senha.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.tx_senha.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tx_senha.Location = new System.Drawing.Point(217, 345);
-            this.tx_senha.Name = "tx_senha";
-            this.tx_senha.PasswordChar = '\0';
-            this.tx_senha.PlaceholderText = "";
-            this.tx_senha.SelectedText = "";
-            this.tx_senha.Size = new System.Drawing.Size(282, 31);
-            this.tx_senha.TabIndex = 57;
+            this.tx_senha_cli.BorderRadius = 18;
+            this.tx_senha_cli.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tx_senha_cli.DefaultText = "";
+            this.tx_senha_cli.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.tx_senha_cli.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.tx_senha_cli.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_senha_cli.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_senha_cli.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_senha_cli.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.tx_senha_cli.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.tx_senha_cli.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_senha_cli.Location = new System.Drawing.Point(217, 345);
+            this.tx_senha_cli.Name = "tx_senha_cli";
+            this.tx_senha_cli.PasswordChar = '\0';
+            this.tx_senha_cli.PlaceholderText = "";
+            this.tx_senha_cli.SelectedText = "";
+            this.tx_senha_cli.Size = new System.Drawing.Size(282, 31);
+            this.tx_senha_cli.TabIndex = 57;
             // 
-            // tx_Email
+            // tx_Email_cli
             // 
-            this.tx_Email.BorderRadius = 18;
-            this.tx_Email.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.tx_Email.DefaultText = "";
-            this.tx_Email.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tx_Email.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tx_Email.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tx_Email.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tx_Email.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tx_Email.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.tx_Email.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.tx_Email.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tx_Email.Location = new System.Drawing.Point(633, 238);
-            this.tx_Email.Name = "tx_Email";
-            this.tx_Email.PasswordChar = '\0';
-            this.tx_Email.PlaceholderText = "";
-            this.tx_Email.SelectedText = "";
-            this.tx_Email.Size = new System.Drawing.Size(375, 35);
-            this.tx_Email.TabIndex = 56;
+            this.tx_Email_cli.BorderRadius = 18;
+            this.tx_Email_cli.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tx_Email_cli.DefaultText = "";
+            this.tx_Email_cli.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.tx_Email_cli.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.tx_Email_cli.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_Email_cli.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_Email_cli.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_Email_cli.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.tx_Email_cli.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.tx_Email_cli.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_Email_cli.Location = new System.Drawing.Point(633, 238);
+            this.tx_Email_cli.Name = "tx_Email_cli";
+            this.tx_Email_cli.PasswordChar = '\0';
+            this.tx_Email_cli.PlaceholderText = "";
+            this.tx_Email_cli.SelectedText = "";
+            this.tx_Email_cli.Size = new System.Drawing.Size(375, 35);
+            this.tx_Email_cli.TabIndex = 56;
             // 
-            // tx_Conf_email
+            // tx_Conf_email_cli
             // 
-            this.tx_Conf_email.BorderRadius = 18;
-            this.tx_Conf_email.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.tx_Conf_email.DefaultText = "";
-            this.tx_Conf_email.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tx_Conf_email.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tx_Conf_email.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tx_Conf_email.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tx_Conf_email.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tx_Conf_email.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.tx_Conf_email.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.tx_Conf_email.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tx_Conf_email.Location = new System.Drawing.Point(633, 283);
-            this.tx_Conf_email.Name = "tx_Conf_email";
-            this.tx_Conf_email.PasswordChar = '\0';
-            this.tx_Conf_email.PlaceholderText = "";
-            this.tx_Conf_email.SelectedText = "";
-            this.tx_Conf_email.Size = new System.Drawing.Size(375, 30);
-            this.tx_Conf_email.TabIndex = 55;
+            this.tx_Conf_email_cli.BorderRadius = 18;
+            this.tx_Conf_email_cli.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tx_Conf_email_cli.DefaultText = "";
+            this.tx_Conf_email_cli.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.tx_Conf_email_cli.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.tx_Conf_email_cli.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_Conf_email_cli.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_Conf_email_cli.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_Conf_email_cli.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.tx_Conf_email_cli.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.tx_Conf_email_cli.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_Conf_email_cli.Location = new System.Drawing.Point(633, 283);
+            this.tx_Conf_email_cli.Name = "tx_Conf_email_cli";
+            this.tx_Conf_email_cli.PasswordChar = '\0';
+            this.tx_Conf_email_cli.PlaceholderText = "";
+            this.tx_Conf_email_cli.SelectedText = "";
+            this.tx_Conf_email_cli.Size = new System.Drawing.Size(375, 30);
+            this.tx_Conf_email_cli.TabIndex = 55;
             // 
-            // tx_nome
+            // tx_nome_cli
             // 
-            this.tx_nome.BorderRadius = 18;
-            this.tx_nome.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.tx_nome.DefaultText = "";
-            this.tx_nome.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tx_nome.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tx_nome.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tx_nome.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tx_nome.FillColor = System.Drawing.SystemColors.Window;
-            this.tx_nome.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tx_nome.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.tx_nome.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.tx_nome.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tx_nome.Location = new System.Drawing.Point(167, 124);
-            this.tx_nome.Name = "tx_nome";
-            this.tx_nome.PasswordChar = '\0';
-            this.tx_nome.PlaceholderForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.tx_nome.PlaceholderText = "";
-            this.tx_nome.SelectedText = "";
-            this.tx_nome.Size = new System.Drawing.Size(413, 36);
-            this.tx_nome.TabIndex = 54;
-            this.tx_nome.TextChanged += new System.EventHandler(this.tx_nome_TextChanged);
+            this.tx_nome_cli.BorderRadius = 18;
+            this.tx_nome_cli.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tx_nome_cli.DefaultText = "";
+            this.tx_nome_cli.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.tx_nome_cli.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.tx_nome_cli.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_nome_cli.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_nome_cli.FillColor = System.Drawing.SystemColors.Window;
+            this.tx_nome_cli.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_nome_cli.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.tx_nome_cli.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.tx_nome_cli.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_nome_cli.Location = new System.Drawing.Point(167, 124);
+            this.tx_nome_cli.Name = "tx_nome_cli";
+            this.tx_nome_cli.PasswordChar = '\0';
+            this.tx_nome_cli.PlaceholderForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.tx_nome_cli.PlaceholderText = "";
+            this.tx_nome_cli.SelectedText = "";
+            this.tx_nome_cli.Size = new System.Drawing.Size(413, 36);
+            this.tx_nome_cli.TabIndex = 54;
+            this.tx_nome_cli.TextChanged += new System.EventHandler(this.tx_nome_TextChanged);
             // 
             // label9
             // 
@@ -324,24 +324,25 @@
             this.label1.TabIndex = 49;
             this.label1.Text = "Email:";
             // 
-            // maskedTextBox2
+            // mx_date_cli
             // 
-            this.maskedTextBox2.Location = new System.Drawing.Point(298, 241);
-            this.maskedTextBox2.Margin = new System.Windows.Forms.Padding(2);
-            this.maskedTextBox2.Mask = "00/00/0000 ";
-            this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(79, 20);
-            this.maskedTextBox2.TabIndex = 48;
-            this.maskedTextBox2.ValidatingType = typeof(System.DateTime);
+            this.mx_date_cli.Location = new System.Drawing.Point(298, 241);
+            this.mx_date_cli.Margin = new System.Windows.Forms.Padding(2);
+            this.mx_date_cli.Mask = "00/00/0000 ";
+            this.mx_date_cli.Name = "mx_date_cli";
+            this.mx_date_cli.Size = new System.Drawing.Size(79, 20);
+            this.mx_date_cli.TabIndex = 48;
+            this.mx_date_cli.ValidatingType = typeof(System.DateTime);
             // 
-            // tx_cpf
+            // tx_cpf_cli
             // 
-            this.tx_cpf.Location = new System.Drawing.Point(151, 179);
-            this.tx_cpf.Margin = new System.Windows.Forms.Padding(2);
-            this.tx_cpf.Mask = "000,000,000-00";
-            this.tx_cpf.Name = "tx_cpf";
-            this.tx_cpf.Size = new System.Drawing.Size(98, 20);
-            this.tx_cpf.TabIndex = 47;
+            this.tx_cpf_cli.Location = new System.Drawing.Point(151, 179);
+            this.tx_cpf_cli.Margin = new System.Windows.Forms.Padding(2);
+            this.tx_cpf_cli.Mask = "000,000,000-00";
+            this.tx_cpf_cli.Name = "tx_cpf_cli";
+            this.tx_cpf_cli.Size = new System.Drawing.Size(98, 20);
+            this.tx_cpf_cli.TabIndex = 47;
+            this.tx_cpf_cli.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.tx_cpf_MaskInputRejected);
             // 
             // label11
             // 
@@ -427,19 +428,19 @@
             this.Controls.Add(this.guna2Button2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.bt_salvar_cadrastro);
-            this.Controls.Add(this.cb_sexo);
-            this.Controls.Add(this.tx_Conf_senha);
-            this.Controls.Add(this.tx_senha);
-            this.Controls.Add(this.tx_Email);
-            this.Controls.Add(this.tx_Conf_email);
-            this.Controls.Add(this.tx_nome);
+            this.Controls.Add(this.cb_sexo_cli);
+            this.Controls.Add(this.tx_Conf_senha_cli);
+            this.Controls.Add(this.tx_senha_cli);
+            this.Controls.Add(this.tx_Email_cli);
+            this.Controls.Add(this.tx_Conf_email_cli);
+            this.Controls.Add(this.tx_nome_cli);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.maskedTextBox2);
-            this.Controls.Add(this.tx_cpf);
+            this.Controls.Add(this.mx_date_cli);
+            this.Controls.Add(this.tx_cpf_cli);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label7);
@@ -465,19 +466,19 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label12;
         private Guna.UI2.WinForms.Guna2Button bt_salvar_cadrastro;
-        private Guna.UI2.WinForms.Guna2ComboBox cb_sexo;
-        private Guna.UI2.WinForms.Guna2TextBox tx_Conf_senha;
-        private Guna.UI2.WinForms.Guna2TextBox tx_senha;
-        private Guna.UI2.WinForms.Guna2TextBox tx_Email;
-        private Guna.UI2.WinForms.Guna2TextBox tx_Conf_email;
-        private Guna.UI2.WinForms.Guna2TextBox tx_nome;
+        private Guna.UI2.WinForms.Guna2ComboBox cb_sexo_cli;
+        private Guna.UI2.WinForms.Guna2TextBox tx_Conf_senha_cli;
+        private Guna.UI2.WinForms.Guna2TextBox tx_senha_cli;
+        private Guna.UI2.WinForms.Guna2TextBox tx_Email_cli;
+        private Guna.UI2.WinForms.Guna2TextBox tx_Conf_email_cli;
+        private Guna.UI2.WinForms.Guna2TextBox tx_nome_cli;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
-        private System.Windows.Forms.MaskedTextBox tx_cpf;
+        private System.Windows.Forms.MaskedTextBox mx_date_cli;
+        private System.Windows.Forms.MaskedTextBox tx_cpf_cli;
         public System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label7;

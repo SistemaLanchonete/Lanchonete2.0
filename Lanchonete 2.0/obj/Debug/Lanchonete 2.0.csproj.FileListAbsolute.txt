@@ -44,7 +44,6 @@ C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\obj\Deb
 C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Telas.TelaCadastro_cliente.resources
 C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Telas.TelaCardapio.resources
 C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Telas.TelaCarrinho.resources
-C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.TelaGerenciadorCardapio.resources
 C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.TelaInicio.resources
 C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Telas.TelaLogin.resources
 C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Telas.TelaPagamento.resources
@@ -55,3 +54,9 @@ C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\obj\Deb
 C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete 2.0.csproj.CopyComplete
 C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete 2.0.exe
 C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete 2.0.pdb
+C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\bin\Debug\Telas Produtos\TelaCardapio.resx
+C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\bin\Debug\Telas\TelaInicio.resx
+C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\bin\Debug\Telas Produtos\TelaCardapio.cs
+C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\bin\Debug\Telas Produtos\TelaCardapio.Designer.cs
+C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\bin\Debug\Telas\TelaInicio.cs
+C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\bin\Debug\Telas\TelaInicio.Designer.cs

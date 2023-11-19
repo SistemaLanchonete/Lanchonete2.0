@@ -81,5 +81,11 @@ namespace Lanchonete_2._0.Telas
         {
             this.Close();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            TelaCardapio a = new TelaCardapio();
+            a.ShowDialog();
+        }
     }
 }

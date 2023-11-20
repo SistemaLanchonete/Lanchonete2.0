@@ -113,12 +113,12 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Nirmala UI", 29.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.SystemColors.Window;
-            this.label12.Location = new System.Drawing.Point(427, 6);
+            this.label12.Location = new System.Drawing.Point(349, 13);
             this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(392, 52);
+            this.label12.Size = new System.Drawing.Size(378, 52);
             this.label12.TabIndex = 13;
-            this.label12.Text = "Cadrasto de Usuario";
+            this.label12.Text = "Cadrasto de Cliente";
             // 
             // bt_salvar_cadrastro
             // 

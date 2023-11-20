@@ -11,7 +11,7 @@ namespace Lanchonete_2._0.Entidades
     internal class Cliente : Pessoa
     {
         public Cliente() { }
-        public Cliente(string nome, string cpf, string email, string senha):base(nome, cpf, email, senha)
+        public Cliente(string nome, string cpf, string email, string senha, DateTime DateNasci, string sexo):base(nome, cpf, email, senha, DateNasci, sexo)
         {
 
         }

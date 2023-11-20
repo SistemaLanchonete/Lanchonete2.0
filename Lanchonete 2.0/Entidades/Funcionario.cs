@@ -13,7 +13,7 @@ namespace Lanchonete_2._0.Entidades
 
         public Funcionario() { }
 
-        public Funcionario(string cargo, string nome, string cpf, string email, string senha):base(nome, cpf, email, senha)
+        public Funcionario(string cargo, string nome, string cpf, string email, string senha, DateTime DateNasci, string sexo) :base(nome, cpf, email, senha, DateNasci, sexo)
         {
             Cargo = cargo;
         }

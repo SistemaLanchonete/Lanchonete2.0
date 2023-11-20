@@ -96,7 +96,7 @@ namespace Lanchonete_2._0.Telas
                 IniciarCompras();
                 TelaPagamento telapagamento = new TelaPagamento(valorTotal);
                 telapagamento.ShowDialog();
-               
+       
 
             }
             else

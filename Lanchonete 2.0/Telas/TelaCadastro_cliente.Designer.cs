@@ -450,7 +450,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "TelaCadastro_cliente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "TelaCadastro";
+            this.Text = "Tela de Cadastro Cliente";
             this.Load += new System.EventHandler(this.TelaCadastro_cliente_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

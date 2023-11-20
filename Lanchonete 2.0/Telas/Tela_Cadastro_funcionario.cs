@@ -36,6 +36,12 @@ namespace Lanchonete_2._0
 
             // Obtém o caminho completo do arquivo de texto dentro da pasta
             string caminhoArquivo = Path.Combine(pasta, "ArquivoFuncionario.txt");
+            Funcionario b = new Funcionario();
+            b.Nome = tx_nome.Text;
+            b.Cpf = tx_cpf.Text;
+            b.Senha = tx_senha.Text;
+            b.Email = tx_Email.Text;
+            b.Sexo = (string)cb_sexo_fun.SelectedItem;
 
             try
             {             
@@ -44,13 +50,13 @@ namespace Lanchonete_2._0
                 {
       
                     // Escreve os dados da pessoa
-                    writer.WriteLine($"\nNome: {tx_nome.Text}");
-                    writer.WriteLine($"CPF: {tx_cpf.Text}");
-                    writer.WriteLine($"Senha: {tx_senha.Text}");
-                    writer.WriteLine($"Email: {tx_Email.Text}");
+                    writer.WriteLine($"\nNome: {b.Nome}");
+                    writer.WriteLine($"CPF: {b.Cpf}");
+                    writer.WriteLine($"Senha: {b.Senha}");
+                    writer.WriteLine($"Email: {b.Email}");
                     writer.WriteLine($"Data nascimento: {tx_data_fun.Text}"); 
                     writer.WriteLine($"Cargo: {cb_cargos_fun.SelectedItem}");
-                    writer.WriteLine($"Sexo: {cb_sexo_fun.SelectedItem}");
+                    writer.WriteLine($"Sexo: {b.Sexo}");
                     writer.WriteLine();
 
                 }

@@ -56,7 +56,6 @@
     <Compile Include="Entidades\Cliente.cs" />
     <Compile Include="Entidades\Funcionario.cs" />
     <Compile Include="Entidades\Pessoa.cs" />
-    <Compile Include="Entidades\LembraSenha.cs" />
     <Compile Include="Telas Produtos\Pag4.cs">
       <SubType>Form</SubType>
     </Compile>

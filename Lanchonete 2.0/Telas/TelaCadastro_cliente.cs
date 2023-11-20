@@ -10,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
 
 namespace Lanchonete_2._0.Telas
 {
@@ -37,6 +38,14 @@ namespace Lanchonete_2._0.Telas
             {
                 Directory.CreateDirectory(pasta);
             }
+            Cliente a = new Cliente();
+            a.Nome = tx_nome_cli.Text;
+            a.Cpf = tx_cpf_cli.Text;
+            a.Senha = tx_senha_cli.Text;    
+            a.Email = tx_Email_cli.Text;
+            a.Sexo = (string)cb_sexo_cli.SelectedItem;
+            
+
 
             // Obtém o caminho completo do arquivo de texto dentro da pasta
             string caminhoArquivo = Path.Combine(pasta, "ArquivoCliente.txt");
@@ -46,12 +55,12 @@ namespace Lanchonete_2._0.Telas
                 // Cria um link para a pasta e escreve no arquivo de texto
                 using (StreamWriter writer = new StreamWriter(caminhoArquivo, true)) // O segundo parâmetro "true" indica modo de adição
                 {
-                    writer.WriteLine($"\nNome: {tx_nome_cli.Text}");
-                    writer.WriteLine($"CPF: {tx_cpf_cli.Text}");
-                    writer.WriteLine($"Senha: {tx_senha_cli.Text}");
-                    writer.WriteLine($"Email: {tx_Email_cli.Text}");
+                    writer.WriteLine($"\nNome: {a.Nome}");
+                    writer.WriteLine($"CPF: {a.Cpf}");
+                    writer.WriteLine($"Senha: {a.Senha}");
+                    writer.WriteLine($"Email: {a.Email}");
                     writer.WriteLine($"Data nascimento: {mx_date_cli.Text}");                
-                    writer.WriteLine($"Sexo: {cb_sexo_cli.SelectedItem}");
+                    writer.WriteLine($"Sexo: {a.Sexo}");
                     writer.WriteLine();
                 }
 

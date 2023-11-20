@@ -12,15 +12,22 @@ namespace Lanchonete_2._0.Entidades
         public string Cpf { get; set; }   
         public string Email { get; set; }
         public string Senha { get; set; }
+        public DateTime dateNasci { get; set; }
+
+        public string Sexo { get; set; }
 
         public Pessoa() { }
 
-        public Pessoa(string nome, string cpf, string email, string senha)
+        public Pessoa(string nome, string cpf, string email, string senha, DateTime DateNasci, string sexo)
         {
             Nome = nome;
             Cpf = cpf;
             Email = email;
-            Senha = senha;  
+            Senha = senha;
+            Sexo = sexo;
+            dateNasci = DateNasci;
+            Sexo = sexo;
+
         }
     }
 }

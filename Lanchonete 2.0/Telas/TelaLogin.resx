@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="guna2Button1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Olho_pa_ve.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wgAADsIBFShKgAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAADE8SURBVHhe7d15
+        wQAADsEBuJFr7QAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAADE8SURBVHhe7d15
         vLbV3PfxNKc0z7M0qVQkhIa7AamQMlXI7MmQqcKNV7i5yxChlAxJdaOJiijSPEulSfM80CBpzv083+9T
         W1fX9dv72sN5HsdvrfV5v16fP+6Ba+99HOd5rvM41rHWLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -1276,7 +1276,7 @@
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAABaAAAAQACAYAAAAXy/6SAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EAAACxABrSO9dQAAeZhJREFUeF7s3Y1yI8eSHuzv/u/RNnco8fAsrbU8Xq//fb54JybHqTrVjQbJxGjt
+        DwAACw8BkvkDpQAAeZhJREFUeF7s3Y1yI8eSHuzv/u/RNnco8fAsrbU8Xq//fb54JybHqTrVjQbJxGjt
         54nIANBdaICUFFH1Kln9//3tE/3v//2/vz/7e3VuHZPX/dz6uh4fXVc/9+q4qnvHX617rnvP2M+qP+Nn
         3jr/r7Vu/Vy787tjf4b6Wd/r6udeHVd17/irdc917xn7WfVn/Mxb5/+11q2fa3d+d+zPUD/re1393Kvj
         qtbx6+uz6mOvuDoOAADgET4tgL6y2FkXT/X6Sv2v//W//u55HvvzOr9WH1ev1+Pr893jWuvx/jrPe+3G

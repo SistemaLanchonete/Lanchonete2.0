@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Tela_Cadastro_funcionario));
             this.bt_Cancelar_Cadastro = new Guna.UI2.WinForms.Guna2Button();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -55,6 +56,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.cb_cargos_fun = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label13 = new System.Windows.Forms.Label();
+            this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -546,5 +548,6 @@
         private System.Windows.Forms.Label label2;
         public System.Windows.Forms.Label label13;
         private Guna.UI2.WinForms.Guna2ComboBox cb_cargos_fun;
+        private Guna.UI2.WinForms.Guna2AnimateWindow guna2AnimateWindow1;
     }
 }

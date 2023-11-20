@@ -59,6 +59,7 @@ namespace Lanchonete_2._0.Telas
                 checkBox2.Enabled = true;
                 checkBox2.Checked = false;
             }
+           
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)
@@ -69,8 +70,10 @@ namespace Lanchonete_2._0.Telas
                 lb_total_paga.Text = "R$ 0,00";
                 pagamentoRealizado = true;
                 guna2Button1.Enabled = false;
+                checkBox1.Enabled = false;
+                checkBox2.Enabled = false;
             }
-        
+
             else
             {
                 MessageBox.Show("Selecione uma forma de Pagamento!", "", MessageBoxButtons.OK, MessageBoxIcon.Error);

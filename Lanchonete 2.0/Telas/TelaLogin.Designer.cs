@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaLogin));
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.Olho_pa_ve = new Guna.UI2.WinForms.Guna2Button();
             this.bt_salvar = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.bt_cardapio = new Guna.UI2.WinForms.Guna2Button();
@@ -41,24 +41,24 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // guna2Button1
+            // Olho_pa_ve
             // 
-            this.guna2Button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("guna2Button1.BackgroundImage")));
-            this.guna2Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guna2Button1.BorderRadius = 70;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2Button1.Location = new System.Drawing.Point(488, 229);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(23, 23);
-            this.guna2Button1.TabIndex = 29;
-            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
+            this.Olho_pa_ve.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Olho_pa_ve.BackgroundImage")));
+            this.Olho_pa_ve.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Olho_pa_ve.BorderRadius = 70;
+            this.Olho_pa_ve.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Olho_pa_ve.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Olho_pa_ve.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Olho_pa_ve.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Olho_pa_ve.FillColor = System.Drawing.Color.Transparent;
+            this.Olho_pa_ve.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.Olho_pa_ve.ForeColor = System.Drawing.Color.White;
+            this.Olho_pa_ve.ImageSize = new System.Drawing.Size(30, 30);
+            this.Olho_pa_ve.Location = new System.Drawing.Point(488, 229);
+            this.Olho_pa_ve.Name = "Olho_pa_ve";
+            this.Olho_pa_ve.Size = new System.Drawing.Size(23, 23);
+            this.Olho_pa_ve.TabIndex = 29;
+            this.Olho_pa_ve.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // bt_salvar
             // 
@@ -147,7 +147,6 @@
             this.tx_senha.SelectedText = "";
             this.tx_senha.Size = new System.Drawing.Size(367, 31);
             this.tx_senha.TabIndex = 24;
-           
             // 
             // tx_email
             // 
@@ -217,7 +216,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(671, 393);
-            this.Controls.Add(this.guna2Button1);
+            this.Controls.Add(this.Olho_pa_ve);
             this.Controls.Add(this.bt_salvar);
             this.Controls.Add(this.guna2Button2);
             this.Controls.Add(this.bt_cardapio);
@@ -240,7 +239,7 @@
 
         #endregion
 
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button Olho_pa_ve;
         private Guna.UI2.WinForms.Guna2Button bt_salvar;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private Guna.UI2.WinForms.Guna2Button bt_cardapio;

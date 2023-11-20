@@ -30,7 +30,7 @@ namespace Lanchonete_2._0.Telas
 
         private void bt_salvar_cadrastro_Click(object sender, EventArgs e)
         {
-            string pasta = @"C:\Users\Family Torrente\Desktop\Noia.Text";
+            string pasta = @"C:\Users\Family Torrente\Pictures\Noia.Text";
 
             // Verifica se a pasta existe ou a cria se não existir
             if (!Directory.Exists(pasta))

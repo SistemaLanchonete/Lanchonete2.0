@@ -70,9 +70,10 @@
             this.bt_Cancelar_Cadastro.FillColor = System.Drawing.Color.SlateBlue;
             this.bt_Cancelar_Cadastro.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.bt_Cancelar_Cadastro.ForeColor = System.Drawing.Color.White;
-            this.bt_Cancelar_Cadastro.Location = new System.Drawing.Point(685, 407);
+            this.bt_Cancelar_Cadastro.Location = new System.Drawing.Point(913, 501);
+            this.bt_Cancelar_Cadastro.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bt_Cancelar_Cadastro.Name = "bt_Cancelar_Cadastro";
-            this.bt_Cancelar_Cadastro.Size = new System.Drawing.Size(187, 48);
+            this.bt_Cancelar_Cadastro.Size = new System.Drawing.Size(249, 59);
             this.bt_Cancelar_Cadastro.TabIndex = 84;
             this.bt_Cancelar_Cadastro.Text = "Cancelar";
             this.bt_Cancelar_Cadastro.Click += new System.EventHandler(this.guna2Button2_Click);
@@ -82,9 +83,10 @@
             this.panel1.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.panel1.Controls.Add(this.guna2Button3);
             this.panel1.Controls.Add(this.label12);
-            this.panel1.Location = new System.Drawing.Point(-24, -2);
+            this.panel1.Location = new System.Drawing.Point(-32, -2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1375, 82);
+            this.panel1.Size = new System.Drawing.Size(1833, 101);
             this.panel1.TabIndex = 82;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -104,11 +106,12 @@
             this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button3.ForeColor = System.Drawing.Color.White;
             this.guna2Button3.ImageOffset = new System.Drawing.Point(1, 0);
-            this.guna2Button3.Location = new System.Drawing.Point(78, 16);
+            this.guna2Button3.Location = new System.Drawing.Point(104, 20);
+            this.guna2Button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Button3.Name = "guna2Button3";
             this.guna2Button3.PressedColor = System.Drawing.SystemColors.ButtonHighlight;
             this.guna2Button3.PressedDepth = 2;
-            this.guna2Button3.Size = new System.Drawing.Size(39, 54);
+            this.guna2Button3.Size = new System.Drawing.Size(52, 66);
             this.guna2Button3.TabIndex = 41;
             this.guna2Button3.TextRenderingHint = System.Drawing.Text.TextRenderingHint.AntiAlias;
             this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
@@ -118,10 +121,9 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Nirmala UI", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.SystemColors.Window;
-            this.label12.Location = new System.Drawing.Point(270, 11);
-            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label12.Location = new System.Drawing.Point(360, 14);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(420, 47);
+            this.label12.Size = new System.Drawing.Size(530, 60);
             this.label12.TabIndex = 13;
             this.label12.Text = "Cadrasto de Funcionário";
             this.label12.Click += new System.EventHandler(this.label12_Click);
@@ -136,9 +138,10 @@
             this.bt_salvar_cadrastro.FillColor = System.Drawing.Color.SlateBlue;
             this.bt_salvar_cadrastro.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.bt_salvar_cadrastro.ForeColor = System.Drawing.Color.White;
-            this.bt_salvar_cadrastro.Location = new System.Drawing.Point(456, 407);
+            this.bt_salvar_cadrastro.Location = new System.Drawing.Point(608, 501);
+            this.bt_salvar_cadrastro.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bt_salvar_cadrastro.Name = "bt_salvar_cadrastro";
-            this.bt_salvar_cadrastro.Size = new System.Drawing.Size(187, 48);
+            this.bt_salvar_cadrastro.Size = new System.Drawing.Size(249, 59);
             this.bt_salvar_cadrastro.TabIndex = 83;
             this.bt_salvar_cadrastro.Text = "Salvar";
             this.bt_salvar_cadrastro.Click += new System.EventHandler(this.bt_salvar_cadrastro_Click);
@@ -157,9 +160,10 @@
             this.cb_sexo_fun.Items.AddRange(new object[] {
             "Masculino",
             "Feminino"});
-            this.cb_sexo_fun.Location = new System.Drawing.Point(116, 253);
+            this.cb_sexo_fun.Location = new System.Drawing.Point(155, 311);
+            this.cb_sexo_fun.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cb_sexo_fun.Name = "cb_sexo_fun";
-            this.cb_sexo_fun.Size = new System.Drawing.Size(138, 36);
+            this.cb_sexo_fun.Size = new System.Drawing.Size(183, 36);
             this.cb_sexo_fun.TabIndex = 81;
             this.cb_sexo_fun.SelectedIndexChanged += new System.EventHandler(this.cb_sexo_fun_SelectedIndexChanged);
             // 
@@ -176,12 +180,13 @@
             this.tx_Conf_senha.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tx_Conf_senha.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.tx_Conf_senha.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tx_Conf_senha.Location = new System.Drawing.Point(185, 421);
+            this.tx_Conf_senha.Location = new System.Drawing.Point(247, 518);
+            this.tx_Conf_senha.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tx_Conf_senha.Name = "tx_Conf_senha";
             this.tx_Conf_senha.PasswordChar = '\0';
             this.tx_Conf_senha.PlaceholderText = "";
             this.tx_Conf_senha.SelectedText = "";
-            this.tx_Conf_senha.Size = new System.Drawing.Size(173, 34);
+            this.tx_Conf_senha.Size = new System.Drawing.Size(231, 42);
             this.tx_Conf_senha.TabIndex = 80;
             this.tx_Conf_senha.TextChanged += new System.EventHandler(this.tx_Conf_senha_TextChanged);
             // 
@@ -198,12 +203,13 @@
             this.tx_senha.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tx_senha.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.tx_senha.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tx_senha.Location = new System.Drawing.Point(139, 363);
+            this.tx_senha.Location = new System.Drawing.Point(185, 447);
+            this.tx_senha.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tx_senha.Name = "tx_senha";
             this.tx_senha.PasswordChar = '\0';
             this.tx_senha.PlaceholderText = "";
             this.tx_senha.SelectedText = "";
-            this.tx_senha.Size = new System.Drawing.Size(174, 34);
+            this.tx_senha.Size = new System.Drawing.Size(232, 42);
             this.tx_senha.TabIndex = 79;
             this.tx_senha.TextChanged += new System.EventHandler(this.tx_senha_TextChanged);
             // 
@@ -220,12 +226,13 @@
             this.tx_Email.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tx_Email.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.tx_Email.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tx_Email.Location = new System.Drawing.Point(616, 184);
+            this.tx_Email.Location = new System.Drawing.Point(821, 226);
+            this.tx_Email.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tx_Email.Name = "tx_Email";
             this.tx_Email.PasswordChar = '\0';
             this.tx_Email.PlaceholderText = "";
             this.tx_Email.SelectedText = "";
-            this.tx_Email.Size = new System.Drawing.Size(267, 38);
+            this.tx_Email.Size = new System.Drawing.Size(356, 47);
             this.tx_Email.TabIndex = 78;
             this.tx_Email.TextChanged += new System.EventHandler(this.tx_Email_TextChanged);
             // 
@@ -242,12 +249,13 @@
             this.tx_Conf_email.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tx_Conf_email.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.tx_Conf_email.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tx_Conf_email.Location = new System.Drawing.Point(616, 240);
+            this.tx_Conf_email.Location = new System.Drawing.Point(821, 295);
+            this.tx_Conf_email.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tx_Conf_email.Name = "tx_Conf_email";
             this.tx_Conf_email.PasswordChar = '\0';
             this.tx_Conf_email.PlaceholderText = "";
             this.tx_Conf_email.SelectedText = "";
-            this.tx_Conf_email.Size = new System.Drawing.Size(267, 39);
+            this.tx_Conf_email.Size = new System.Drawing.Size(356, 48);
             this.tx_Conf_email.TabIndex = 77;
             this.tx_Conf_email.TextChanged += new System.EventHandler(this.tx_Conf_email_TextChanged);
             // 
@@ -265,13 +273,14 @@
             this.tx_nome.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tx_nome.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.tx_nome.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tx_nome.Location = new System.Drawing.Point(92, 127);
+            this.tx_nome.Location = new System.Drawing.Point(123, 156);
+            this.tx_nome.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tx_nome.Name = "tx_nome";
             this.tx_nome.PasswordChar = '\0';
             this.tx_nome.PlaceholderForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.tx_nome.PlaceholderText = "";
             this.tx_nome.SelectedText = "";
-            this.tx_nome.Size = new System.Drawing.Size(305, 36);
+            this.tx_nome.Size = new System.Drawing.Size(407, 44);
             this.tx_nome.TabIndex = 76;
             this.tx_nome.TextChanged += new System.EventHandler(this.tx_nome_TextChanged);
             // 
@@ -280,10 +289,9 @@
             this.lb_email_invalido.AutoSize = true;
             this.lb_email_invalido.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_email_invalido.ForeColor = System.Drawing.Color.Red;
-            this.lb_email_invalido.Location = new System.Drawing.Point(644, 303);
-            this.lb_email_invalido.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lb_email_invalido.Location = new System.Drawing.Point(859, 373);
             this.lb_email_invalido.Name = "lb_email_invalido";
-            this.lb_email_invalido.Size = new System.Drawing.Size(190, 22);
+            this.lb_email_invalido.Size = new System.Drawing.Size(246, 28);
             this.lb_email_invalido.TabIndex = 75;
             this.lb_email_invalido.Text = "emails diferentes!";
             this.lb_email_invalido.Click += new System.EventHandler(this.lb_email_invalido_Click);
@@ -293,10 +301,9 @@
             this.lb_senha_invalido.AutoSize = true;
             this.lb_senha_invalido.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_senha_invalido.ForeColor = System.Drawing.Color.Red;
-            this.lb_senha_invalido.Location = new System.Drawing.Point(172, 478);
-            this.lb_senha_invalido.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lb_senha_invalido.Location = new System.Drawing.Point(229, 588);
             this.lb_senha_invalido.Name = "lb_senha_invalido";
-            this.lb_senha_invalido.Size = new System.Drawing.Size(180, 22);
+            this.lb_senha_invalido.Size = new System.Drawing.Size(233, 28);
             this.lb_senha_invalido.TabIndex = 74;
             this.lb_senha_invalido.Text = "Senhas distintas!";
             this.lb_senha_invalido.Click += new System.EventHandler(this.lb_senha_invalido_Click);
@@ -306,10 +313,9 @@
             this.lb_cpf.AutoSize = true;
             this.lb_cpf.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_cpf.ForeColor = System.Drawing.Color.Red;
-            this.lb_cpf.Location = new System.Drawing.Point(94, 208);
-            this.lb_cpf.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lb_cpf.Location = new System.Drawing.Point(125, 256);
             this.lb_cpf.Name = "lb_cpf";
-            this.lb_cpf.Size = new System.Drawing.Size(130, 22);
+            this.lb_cpf.Size = new System.Drawing.Size(168, 28);
             this.lb_cpf.TabIndex = 73;
             this.lb_cpf.Text = "cpf inválido";
             this.lb_cpf.Click += new System.EventHandler(this.lb_cpf_Click);
@@ -319,10 +325,9 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.MediumSlateBlue;
-            this.label4.Location = new System.Drawing.Point(452, 249);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(603, 306);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(150, 22);
+            this.label4.Size = new System.Drawing.Size(194, 28);
             this.label4.TabIndex = 72;
             this.label4.Text = "Confir. email:";
             this.label4.Click += new System.EventHandler(this.label4_Click);
@@ -332,32 +337,31 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.MediumSlateBlue;
-            this.label1.Location = new System.Drawing.Point(527, 189);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(703, 233);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(70, 22);
+            this.label1.Size = new System.Drawing.Size(90, 28);
             this.label1.TabIndex = 71;
             this.label1.Text = "Email:";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // tx_data_fun
             // 
-            this.tx_data_fun.Location = new System.Drawing.Point(255, 306);
-            this.tx_data_fun.Margin = new System.Windows.Forms.Padding(2);
+            this.tx_data_fun.Location = new System.Drawing.Point(340, 377);
+            this.tx_data_fun.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tx_data_fun.Mask = "00/00/0000 ";
             this.tx_data_fun.Name = "tx_data_fun";
-            this.tx_data_fun.Size = new System.Drawing.Size(121, 20);
+            this.tx_data_fun.Size = new System.Drawing.Size(160, 22);
             this.tx_data_fun.TabIndex = 70;
             this.tx_data_fun.ValidatingType = typeof(System.DateTime);
             this.tx_data_fun.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.tx_data_fun_MaskInputRejected);
             // 
             // tx_cpf
             // 
-            this.tx_cpf.Location = new System.Drawing.Point(99, 183);
-            this.tx_cpf.Margin = new System.Windows.Forms.Padding(2);
+            this.tx_cpf.Location = new System.Drawing.Point(132, 225);
+            this.tx_cpf.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tx_cpf.Mask = "000,000,000-00";
             this.tx_cpf.Name = "tx_cpf";
-            this.tx_cpf.Size = new System.Drawing.Size(153, 20);
+            this.tx_cpf.Size = new System.Drawing.Size(203, 22);
             this.tx_cpf.TabIndex = 69;
             this.tx_cpf.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.tx_cpf_MaskInputRejected);
             // 
@@ -366,10 +370,9 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.MediumSlateBlue;
-            this.label11.Location = new System.Drawing.Point(34, 183);
-            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label11.Location = new System.Drawing.Point(45, 225);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(50, 22);
+            this.label11.Size = new System.Drawing.Size(64, 28);
             this.label11.TabIndex = 68;
             this.label11.Text = "CPF:";
             this.label11.Click += new System.EventHandler(this.label11_Click);
@@ -379,10 +382,9 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.MediumSlateBlue;
-            this.label10.Location = new System.Drawing.Point(27, 304);
-            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label10.Location = new System.Drawing.Point(36, 374);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(200, 22);
+            this.label10.Size = new System.Drawing.Size(259, 28);
             this.label10.TabIndex = 67;
             this.label10.Text = "Data de Nascimento:";
             this.label10.Click += new System.EventHandler(this.label10_Click);
@@ -392,10 +394,9 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.MediumSlateBlue;
-            this.label7.Location = new System.Drawing.Point(25, 427);
-            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label7.Location = new System.Drawing.Point(33, 526);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(150, 22);
+            this.label7.Size = new System.Drawing.Size(194, 28);
             this.label7.TabIndex = 66;
             this.label7.Text = "Confir. Senha:";
             this.label7.Click += new System.EventHandler(this.label7_Click);
@@ -405,10 +406,9 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.MediumSlateBlue;
-            this.label5.Location = new System.Drawing.Point(44, 363);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Location = new System.Drawing.Point(59, 447);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(70, 22);
+            this.label5.Size = new System.Drawing.Size(90, 28);
             this.label5.TabIndex = 65;
             this.label5.Text = "Senha:";
             this.label5.Click += new System.EventHandler(this.label5_Click);
@@ -418,10 +418,9 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.MediumSlateBlue;
-            this.label3.Location = new System.Drawing.Point(40, 257);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(53, 316);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 22);
+            this.label3.Size = new System.Drawing.Size(77, 28);
             this.label3.TabIndex = 64;
             this.label3.Text = "Sexo:";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -432,10 +431,9 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.MediumSlateBlue;
-            this.label2.Location = new System.Drawing.Point(34, 130);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(45, 160);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 22);
+            this.label2.Size = new System.Drawing.Size(77, 28);
             this.label2.TabIndex = 63;
             this.label2.Text = "Nome:";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -461,9 +459,10 @@
             "Auxiliar de Estoque",
             "Auxiliar de Manutenção",
             "Gerente de Lanchonete"});
-            this.cb_cargos_fun.Location = new System.Drawing.Point(615, 130);
+            this.cb_cargos_fun.Location = new System.Drawing.Point(820, 160);
+            this.cb_cargos_fun.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cb_cargos_fun.Name = "cb_cargos_fun";
-            this.cb_cargos_fun.Size = new System.Drawing.Size(267, 36);
+            this.cb_cargos_fun.Size = new System.Drawing.Size(355, 36);
             this.cb_cargos_fun.TabIndex = 85;
             this.cb_cargos_fun.SelectedIndexChanged += new System.EventHandler(this.cb_cargos_fun_SelectedIndexChanged);
             // 
@@ -472,19 +471,18 @@
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.MediumSlateBlue;
-            this.label13.Location = new System.Drawing.Point(527, 140);
-            this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label13.Location = new System.Drawing.Point(703, 172);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(70, 22);
+            this.label13.Size = new System.Drawing.Size(90, 28);
             this.label13.TabIndex = 86;
             this.label13.Text = "Cargo:";
             this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
             // Tela_Cadastro_funcionario
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(918, 576);
+            this.ClientSize = new System.Drawing.Size(1224, 709);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.cb_cargos_fun);
             this.Controls.Add(this.bt_Cancelar_Cadastro);
@@ -510,9 +508,11 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Tela_Cadastro_funcionario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tela Cadastro Funcionario";
+            this.Load += new System.EventHandler(this.Tela_Cadastro_funcionario_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

@@ -43,16 +43,27 @@ namespace Lanchonete_2._0.Telas
         }
         private Form activeForm = null;
         private void openChildForm(Form childForm)
-        {
+        {//VIDEO
+            // Fecha o formulário ativo atual
             if (activeForm != null)
                 activeForm.Close();
+            // Define o formulário filho como o formulário ativo
             activeForm = childForm;
+            // Desabilita a criação automática de uma janela superior para o formulário filho
             childForm.TopLevel = false;
+            // Remove a borda do formulário filho para ter um design sem bordas
             childForm.FormBorderStyle = FormBorderStyle.None;
+            // Preenche o formulário filho para ocupar completamente o espaço disponível no painel
             childForm.Dock = DockStyle.Fill;
-            panelChildForm.Controls.Add(childForm);  // define o local onde ira abrir
+
+
+            // Adiciona o formulário filho ao painel
+            panelChildForm.Controls.Add(childForm);
+            // Define o formulário filho como uma referência no painel
             panelChildForm.Tag = childForm;
+            // Move o formulário filho para a frente, tornando-o visível
             childForm.BringToFront();
+            // Exibe o formulário filho
             childForm.Show();
         }
 
@@ -60,6 +71,16 @@ namespace Lanchonete_2._0.Telas
         {
             TelaCarrinho a = new TelaCarrinho();
             a.ShowDialog();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panelChildForm_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

@@ -90,5 +90,10 @@ namespace Lanchonete_2._0.Telas
             TelaCardapio a = new TelaCardapio();
             a.ShowDialog();
         }
+
+        private void TelaPagamento_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

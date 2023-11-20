@@ -60,3 +60,33 @@ C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\bin\Deb
 C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\bin\Debug\Telas Produtos\TelaCardapio.Designer.cs
 C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\bin\Debug\Telas\TelaInicio.cs
 C:\Users\Family Torrente\3D Objects\kksksks\Lanchonete2.0\Lanchonete 2.0\bin\Debug\Telas\TelaInicio.Designer.cs
+C:\Users\tayna_97l6kwx\OneDrive\Área de Trabalho\Lanchonete 2.0 - ultima version\Lanchonete2.0\Lanchonete 2.0\bin\Debug\Telas Produtos\TelaCardapio.resx
+C:\Users\tayna_97l6kwx\OneDrive\Área de Trabalho\Lanchonete 2.0 - ultima version\Lanchonete2.0\Lanchonete 2.0\bin\Debug\Telas\TelaInicio.resx
+C:\Users\tayna_97l6kwx\OneDrive\Área de Trabalho\Lanchonete 2.0 - ultima version\Lanchonete2.0\Lanchonete 2.0\bin\Debug\Telas Produtos\TelaCardapio.cs
+C:\Users\tayna_97l6kwx\OneDrive\Área de Trabalho\Lanchonete 2.0 - ultima version\Lanchonete2.0\Lanchonete 2.0\bin\Debug\Telas Produtos\TelaCardapio.Designer.cs
+C:\Users\tayna_97l6kwx\OneDrive\Área de Trabalho\Lanchonete 2.0 - ultima version\Lanchonete2.0\Lanchonete 2.0\bin\Debug\Telas\TelaInicio.cs
+C:\Users\tayna_97l6kwx\OneDrive\Área de Trabalho\Lanchonete 2.0 - ultima version\Lanchonete2.0\Lanchonete 2.0\bin\Debug\Telas\TelaInicio.Designer.cs
+C:\Users\tayna_97l6kwx\OneDrive\Área de Trabalho\Lanchonete 2.0 - ultima version\Lanchonete2.0\Lanchonete 2.0\bin\Debug\Lanchonete 2.0.exe.config
+C:\Users\tayna_97l6kwx\OneDrive\Área de Trabalho\Lanchonete 2.0 - ultima version\Lanchonete2.0\Lanchonete 2.0\bin\Debug\Lanchonete 2.0.exe
+C:\Users\tayna_97l6kwx\OneDrive\Área de Trabalho\Lanchonete 2.0 - ultima version\Lanchonete2.0\Lanchonete 2.0\bin\Debug\Lanchonete 2.0.pdb
+C:\Users\tayna_97l6kwx\OneDrive\Área de Trabalho\Lanchonete 2.0 - ultima version\Lanchonete2.0\Lanchonete 2.0\bin\Debug\Guna.UI2.dll
+C:\Users\tayna_97l6kwx\OneDrive\Área de Trabalho\Lanchonete 2.0 - ultima version\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete 2.0.csproj.AssemblyReference.cache
+C:\Users\tayna_97l6kwx\OneDrive\Área de Trabalho\Lanchonete 2.0 - ultima version\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete 2.0.csproj.SuggestedBindingRedirects.cache
+C:\Users\tayna_97l6kwx\OneDrive\Área de Trabalho\Lanchonete 2.0 - ultima version\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Pag4.resources
+C:\Users\tayna_97l6kwx\OneDrive\Área de Trabalho\Lanchonete 2.0 - ultima version\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Pag2.resources
+C:\Users\tayna_97l6kwx\OneDrive\Área de Trabalho\Lanchonete 2.0 - ultima version\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Pag3.resources
+C:\Users\tayna_97l6kwx\OneDrive\Área de Trabalho\Lanchonete 2.0 - ultima version\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Properties.Resources.resources
+C:\Users\tayna_97l6kwx\OneDrive\Área de Trabalho\Lanchonete 2.0 - ultima version\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Pag1.resources
+C:\Users\tayna_97l6kwx\OneDrive\Área de Trabalho\Lanchonete 2.0 - ultima version\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Telas.TelaCadastro_cliente.resources
+C:\Users\tayna_97l6kwx\OneDrive\Área de Trabalho\Lanchonete 2.0 - ultima version\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Telas.TelaCardapio.resources
+C:\Users\tayna_97l6kwx\OneDrive\Área de Trabalho\Lanchonete 2.0 - ultima version\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Telas.TelaCarrinho.resources
+C:\Users\tayna_97l6kwx\OneDrive\Área de Trabalho\Lanchonete 2.0 - ultima version\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.TelaInicio.resources
+C:\Users\tayna_97l6kwx\OneDrive\Área de Trabalho\Lanchonete 2.0 - ultima version\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Telas.TelaLogin.resources
+C:\Users\tayna_97l6kwx\OneDrive\Área de Trabalho\Lanchonete 2.0 - ultima version\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Telas.TelaPagamento.resources
+C:\Users\tayna_97l6kwx\OneDrive\Área de Trabalho\Lanchonete 2.0 - ultima version\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.Tela_Cadastro_funcionario.resources
+C:\Users\tayna_97l6kwx\OneDrive\Área de Trabalho\Lanchonete 2.0 - ultima version\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete_2._0.TipoPerfil.resources
+C:\Users\tayna_97l6kwx\OneDrive\Área de Trabalho\Lanchonete 2.0 - ultima version\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete 2.0.csproj.GenerateResource.cache
+C:\Users\tayna_97l6kwx\OneDrive\Área de Trabalho\Lanchonete 2.0 - ultima version\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete 2.0.csproj.CoreCompileInputs.cache
+C:\Users\tayna_97l6kwx\OneDrive\Área de Trabalho\Lanchonete 2.0 - ultima version\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete 2.0.csproj.CopyComplete
+C:\Users\tayna_97l6kwx\OneDrive\Área de Trabalho\Lanchonete 2.0 - ultima version\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete 2.0.exe
+C:\Users\tayna_97l6kwx\OneDrive\Área de Trabalho\Lanchonete 2.0 - ultima version\Lanchonete2.0\Lanchonete 2.0\obj\Debug\Lanchonete 2.0.pdb

@@ -9,7 +9,7 @@ namespace Lanchonete_2._0.Telas
 {
     public partial class TelaLogin : Form
     {
-        private const string pasta = @"C:\Users\Family Torrente\Pictures\Noia.Text";
+        private const string pasta = @"C:\Users\tayna_97l6kwx\OneDrive\Imagens\Dados.TEXT";
         private const string arquivoClientes = "ArquivoCliente.txt";
         bool emailEncontrado = true;
         public TelaLogin()
@@ -24,6 +24,7 @@ namespace Lanchonete_2._0.Telas
         {
             string email = tx_email.Text.Trim();
             string senha = tx_senha.Text.Trim();
+           
 
             if (string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(senha)) // aviso de campo em branco
             {
@@ -40,7 +41,7 @@ namespace Lanchonete_2._0.Telas
                         bt_cardapio.Enabled = true;
                     }
                    
-                    else if (arquivoClientes != tx_email.Text) // Aviso de Senha errada
+                    else if (arquivoClientes != tx_email.Text) // Aviso de EMAIL errado
                     {
                         
                         bt_cardapio.Enabled = false;
@@ -117,7 +118,7 @@ namespace Lanchonete_2._0.Telas
             }
         }
         private bool IsValidEmail(string email)
-        {
+        {//micro
             string pattern = @"([A-z0-9]+@[A-z]+\.[A-z\.]{2,5})$";
             Regex regex = new Regex(pattern);
             return regex.IsMatch(email);

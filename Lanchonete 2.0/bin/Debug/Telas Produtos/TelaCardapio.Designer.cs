@@ -56,10 +56,12 @@
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(-10, 44);
+            this.panel1.Location = new System.Drawing.Point(-13, 54);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(791, 100);
+            this.panel1.Size = new System.Drawing.Size(1055, 123);
             this.panel1.TabIndex = 2;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // label2
             // 
@@ -67,9 +69,10 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Consolas", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(140, 57);
+            this.label2.Location = new System.Drawing.Point(187, 70);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(0, 43);
+            this.label2.Size = new System.Drawing.Size(0, 55);
             this.label2.TabIndex = 1;
             // 
             // label1
@@ -79,9 +82,10 @@
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label1.Font = new System.Drawing.Font("Consolas", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(246, 25);
+            this.label1.Location = new System.Drawing.Point(328, 31);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(181, 45);
+            this.label1.Size = new System.Drawing.Size(234, 57);
             this.label1.TabIndex = 0;
             this.label1.Text = "CARDÁPIO";
             // 
@@ -95,8 +99,9 @@
             this.panelSideMenu.Controls.Add(this.panel_sub_menu);
             this.panelSideMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelSideMenu.Location = new System.Drawing.Point(0, 0);
+            this.panelSideMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelSideMenu.Name = "panelSideMenu";
-            this.panelSideMenu.Size = new System.Drawing.Size(188, 636);
+            this.panelSideMenu.Size = new System.Drawing.Size(251, 783);
             this.panelSideMenu.TabIndex = 3;
             // 
             // guna2Button1
@@ -112,9 +117,10 @@
             this.guna2Button1.ForeColor = System.Drawing.SystemColors.WindowText;
             this.guna2Button1.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button1.Image")));
             this.guna2Button1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button1.Location = new System.Drawing.Point(4, 345);
+            this.guna2Button1.Location = new System.Drawing.Point(5, 425);
+            this.guna2Button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(163, 50);
+            this.guna2Button1.Size = new System.Drawing.Size(217, 62);
             this.guna2Button1.TabIndex = 5;
             this.guna2Button1.Text = "Carrinho";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
@@ -125,18 +131,20 @@
             this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel2.ForeColor = System.Drawing.Color.Transparent;
-            this.panel2.Location = new System.Drawing.Point(25, 3);
+            this.panel2.Location = new System.Drawing.Point(33, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(83, 83);
+            this.panel2.Size = new System.Drawing.Size(111, 102);
             this.panel2.TabIndex = 3;
             // 
             // panel4
             // 
             this.panel4.Controls.Add(this.Voltar);
             this.panel4.Controls.Add(this.guna2Button3);
-            this.panel4.Location = new System.Drawing.Point(0, 290);
+            this.panel4.Location = new System.Drawing.Point(0, 357);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(200, 43);
+            this.panel4.Size = new System.Drawing.Size(267, 53);
             this.panel4.TabIndex = 2;
             // 
             // Voltar
@@ -145,9 +153,10 @@
             this.Voltar.BackColor = System.Drawing.Color.Transparent;
             this.Voltar.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Voltar.ForeColor = System.Drawing.Color.White;
-            this.Voltar.Location = new System.Drawing.Point(51, 11);
+            this.Voltar.Location = new System.Drawing.Point(68, 14);
+            this.Voltar.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Voltar.Name = "Voltar";
-            this.Voltar.Size = new System.Drawing.Size(63, 19);
+            this.Voltar.Size = new System.Drawing.Size(76, 23);
             this.Voltar.TabIndex = 3;
             this.Voltar.Text = "Voltar";
             // 
@@ -167,11 +176,12 @@
             this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button3.ForeColor = System.Drawing.Color.White;
             this.guna2Button3.ImageOffset = new System.Drawing.Point(1, 0);
-            this.guna2Button3.Location = new System.Drawing.Point(19, 10);
+            this.guna2Button3.Location = new System.Drawing.Point(25, 12);
+            this.guna2Button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Button3.Name = "guna2Button3";
             this.guna2Button3.PressedColor = System.Drawing.SystemColors.ButtonHighlight;
             this.guna2Button3.PressedDepth = 2;
-            this.guna2Button3.Size = new System.Drawing.Size(25, 24);
+            this.guna2Button3.Size = new System.Drawing.Size(33, 30);
             this.guna2Button3.TabIndex = 18;
             this.guna2Button3.TextRenderingHint = System.Drawing.Text.TextRenderingHint.AntiAlias;
             this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
@@ -183,9 +193,10 @@
             this.panel_sub_menu.Controls.Add(this.button4);
             this.panel_sub_menu.Controls.Add(this.button3);
             this.panel_sub_menu.Controls.Add(this.button2);
-            this.panel_sub_menu.Location = new System.Drawing.Point(0, 100);
+            this.panel_sub_menu.Location = new System.Drawing.Point(0, 123);
+            this.panel_sub_menu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel_sub_menu.Name = "panel_sub_menu";
-            this.panel_sub_menu.Size = new System.Drawing.Size(188, 182);
+            this.panel_sub_menu.Size = new System.Drawing.Size(251, 224);
             this.panel_sub_menu.TabIndex = 1;
             // 
             // button5
@@ -194,10 +205,11 @@
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button5.Location = new System.Drawing.Point(0, 139);
+            this.button5.Location = new System.Drawing.Point(0, 171);
+            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button5.Name = "button5";
-            this.button5.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button5.Size = new System.Drawing.Size(166, 43);
+            this.button5.Padding = new System.Windows.Forms.Padding(47, 0, 0, 0);
+            this.button5.Size = new System.Drawing.Size(221, 53);
             this.button5.TabIndex = 4;
             this.button5.Text = "Pag 4";
             this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -210,10 +222,11 @@
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button4.Location = new System.Drawing.Point(1, 90);
+            this.button4.Location = new System.Drawing.Point(1, 111);
+            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button4.Name = "button4";
-            this.button4.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button4.Size = new System.Drawing.Size(166, 43);
+            this.button4.Padding = new System.Windows.Forms.Padding(47, 0, 0, 0);
+            this.button4.Size = new System.Drawing.Size(221, 53);
             this.button4.TabIndex = 3;
             this.button4.Text = "Pag 3";
             this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -226,10 +239,11 @@
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.Location = new System.Drawing.Point(-1, 46);
+            this.button3.Location = new System.Drawing.Point(-1, 57);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button3.Size = new System.Drawing.Size(166, 43);
+            this.button3.Padding = new System.Windows.Forms.Padding(47, 0, 0, 0);
+            this.button3.Size = new System.Drawing.Size(221, 53);
             this.button3.TabIndex = 2;
             this.button3.Text = "Pag 2";
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -243,9 +257,10 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button2.Location = new System.Drawing.Point(-1, 1);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button2.Size = new System.Drawing.Size(166, 43);
+            this.button2.Padding = new System.Windows.Forms.Padding(47, 0, 0, 0);
+            this.button2.Size = new System.Drawing.Size(221, 53);
             this.button2.TabIndex = 1;
             this.button2.Text = "Pag 1";
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -258,21 +273,24 @@
             this.panelChildForm.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panelChildForm.Controls.Add(this.panel1);
             this.panelChildForm.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(21)))), ((int)(((byte)(32)))));
-            this.panelChildForm.Location = new System.Drawing.Point(173, -7);
+            this.panelChildForm.Location = new System.Drawing.Point(231, -9);
+            this.panelChildForm.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelChildForm.Name = "panelChildForm";
-            this.panelChildForm.Size = new System.Drawing.Size(970, 650);
+            this.panelChildForm.Size = new System.Drawing.Size(1293, 800);
             this.panelChildForm.TabIndex = 4;
+            this.panelChildForm.Paint += new System.Windows.Forms.PaintEventHandler(this.panelChildForm_Paint);
             // 
             // TelaCardapio
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(896, 636);
+            this.ClientSize = new System.Drawing.Size(1195, 783);
             this.Controls.Add(this.panelSideMenu);
             this.Controls.Add(this.panelChildForm);
             this.DoubleBuffered = true;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "TelaCardapio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "TelaCardapio";

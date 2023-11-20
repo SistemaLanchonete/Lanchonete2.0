@@ -31,7 +31,7 @@ namespace Lanchonete_2._0.Telas
 
         private void bt_salvar_cadrastro_Click(object sender, EventArgs e)
         {
-            string pasta = @"C:\Users\Family Torrente\Pictures\Noia.Text";
+            string pasta = @"C:\Users\tayna_97l6kwx\OneDrive\Imagens\Dados.TEXT";
 
             // Verifica se a pasta existe ou a cria se não existir
             if (!Directory.Exists(pasta))
@@ -61,7 +61,6 @@ namespace Lanchonete_2._0.Telas
                     writer.WriteLine($"Email: {a.Email}");
                     writer.WriteLine($"Data nascimento: {mx_date_cli.Text}");                
                     writer.WriteLine($"Sexo: {a.Sexo}");
-                    writer.WriteLine();
                 }
 
                 MessageBox.Show("Dados da pessoa adicionados com sucesso!");
@@ -111,7 +110,7 @@ namespace Lanchonete_2._0.Telas
                 label8.Text = "As senha não são as mesmas!";
             }
 
-            if (label1.Text == tx_Conf_email_cli.Text)
+            if (tx_Email_cli.Text == tx_Conf_email_cli.Text)
             {
 
                 MessageBox.Show(tx_nome_cli.Text + " " + tx_cpf_cli.Text + " " + label1.Text + " " + tx_senha_cli.Text + " " + tx_Conf_senha_cli.Text + " " + tx_Conf_email_cli.Text);
@@ -161,6 +160,11 @@ namespace Lanchonete_2._0.Telas
         }
 
         private void tx_cpf_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
         {
 
         }

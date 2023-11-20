@@ -26,7 +26,7 @@ namespace Lanchonete_2._0
           
         private void bt_salvar_cadrastro_Click(object sender, EventArgs e)
         {
-            string pasta = @"C:\Users\Family Torrente\Pictures\Noia.Text";
+            string pasta = @"C:\Users\tayna_97l6kwx\OneDrive\Imagens\Dados.TEXT";
 
             // Verifica se a pasta existe ou a cria se não existir
             if (!Directory.Exists(pasta))
@@ -52,8 +52,8 @@ namespace Lanchonete_2._0
                     // Escreve os dados da pessoa
                     writer.WriteLine($"\nNome: {b.Nome}");
                     writer.WriteLine($"CPF: {b.Cpf}");
-                    writer.WriteLine($"Senha: {b.Senha}");
-                    writer.WriteLine($"Email: {b.Email}");
+                    writer.WriteLine($"Senha: {tx_senha.Text}");
+                    writer.WriteLine($"Email: {tx_Email.Text}");
                     writer.WriteLine($"Data nascimento: {tx_data_fun.Text}"); 
                     writer.WriteLine($"Cargo: {cb_cargos_fun.SelectedItem}");
                     writer.WriteLine($"Sexo: {b.Sexo}");
@@ -249,6 +249,11 @@ namespace Lanchonete_2._0
         }
 
         private void label13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Tela_Cadastro_funcionario_Load(object sender, EventArgs e)
         {
 
         }
